@@ -1,0 +1,33 @@
+/* ImageSlider.css */
+.slider-container {
+  width: 50%;
+  /* height: 50%; */
+  margin: 0 auto;
+  margin-top: 2rem;
+  /* padding-left: 25rem; */
+}
+
+.slider-image {
+  width: 35%;
+  height: 50%;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 480px) {
+  .slider-container {
+    width: 70%;
+    /* height: 50%; */
+    margin: 0 auto;
+    margin-top: 2rem;
+    /* margin-left: 2rem; */
+  }
+  .slider-image {
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+  }
+}

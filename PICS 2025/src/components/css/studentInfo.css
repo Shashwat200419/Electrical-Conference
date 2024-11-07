@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+
+.studentInfo {
+  background-color: #02273d;
+  font-size: 4rem;
+  color: #d7d7f3;
+  width: 100%;
+  padding: 2rem;
+  padding-left: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.studentInfo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 41.5%;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+.studentInfo h1 {
+  position: relative;
+  left: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e8eaea;
+  z-index: 2; /* Position the text above the overlay */
+  font-size: 3.5rem;
+  /* color: #ebedef; */
+  width: 38%;
+  padding-bottom: 0.4rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.studentInfo h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 4px;
+  width: 0;
+  background-color: #2385b8; /* Border color */
+  transition: width 0.45s ease, left 0.45s ease;
+  border-radius: 5rem;
+  animation: expandBorderBothWays 1s ease forwards;
+}
+@keyframes expandBorderBothWays {
+  from {
+    width: 0;
+    left: 50%;
+  }
+  to {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.studentInfo h1:hover::after {
+  /* border-bottom: 2px solid #2385b8; */
+  width: 100%;
+  left: 0;
+  animation: expandBorderOnHover 1s ease forwards;
+}
+
+@keyframes expandBorderOnHover {
+  0% {
+    width: 0;
+    left: 50%;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .studentInfo {
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .studentInfo h1 {
+    position: relative;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e8eaea;
+    z-index: 2; /* Position the text above the overlay */
+    font-size: 2.3rem;
+    /* color: #ebedef; */
+    width: 95%;
+    padding-bottom: 0.4rem;
+    font-family: "Barlow", sans-serif;
+  }
+  .studentInfo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30.7%;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+  }
+}

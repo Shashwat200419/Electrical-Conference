@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+
+.aboutNITH {
+  position: relative;
+  background-color: #02273d;
+  font-size: 4rem;
+  color: white;
+  /* color: #d7d7f3; */
+  width: 100%;
+  padding: 2rem;
+  padding-left: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.aboutNITH::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+.aboutNITH h1 {
+  position: relative;
+  left: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e8eaea;
+  z-index: 2; /* Position the text above the overlay */
+  font-size: 3.5rem;
+  /* color: #ebedef; */
+  width: 23%;
+  padding-bottom: 0.4rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.aboutNITH h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 4px;
+  width: 0;
+  background-color: #2385b8; /* Border color */
+  transition: width 0.45s ease, left 0.45s ease;
+  border-radius: 5rem;
+  animation: expandBorderBothWays 1s ease forwards;
+}
+@keyframes expandBorderBothWays {
+  from {
+    width: 0;
+    left: 50%;
+  }
+  to {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.aboutNITH h1:hover::after {
+  /* border-bottom: 2px solid #2385b8; */
+  width: 100%;
+  left: 0;
+  animation: expandBorderOnHover 1s ease forwards;
+}
+
+@keyframes expandBorderOnHover {
+  0% {
+    width: 0;
+    left: 50%;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.backlogo {
+  position: absolute;
+  width: 20%;
+  height: 40%;
+  opacity: 0.15;
+  margin: 3rem 39rem 0rem 39rem;
+}
+.dataHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.NITH {
+  color: #000000;
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+  /* margin-left: 22rem; */
+  width: 50%;
+  text-align: center;
+}
+
+.nithLogo {
+  width: 15%;
+  height: 15%;
+}
+
+.paras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 1rem 12.5rem;
+  /* margin-bottom: 2rem; */
+  gap: 2rem;
+  color: #686967;
+  font-size: 0.89rem;
+}
+
+.para1 {
+  width: 100%;
+  line-height: 1.7;
+}
+.para2 {
+  width: 100%;
+  line-height: 1.7;
+}
+.para3 {
+  width: 100%;
+  line-height: 1.7;
+  /* margin-bottom: 2rem; */
+}
+
+@media (max-width: 480px) {
+  .aboutNITH {
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .aboutNITH h1 {
+    position: relative;
+    left: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e8eaea;
+    z-index: 2; /* Position the text above the overlay */
+    font-size: 2.3rem;
+    /* color: #ebedef; */
+    width: 60%;
+    padding-bottom: 0.4rem;
+    font-family: "Barlow", sans-serif;
+  }
+
+  .NITH {
+    color: #000000;
+    @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+    text-align: center;
+  }
+  .nithLogo {
+    width: 33%;
+    height: 33%;
+  }
+  .backlogo {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    opacity: 0.15;
+    margin: 13rem 7rem;
+  }
+  .paras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    /* margin: 2rem 12.5rem; */
+    /* margin-bottom: 2rem; */
+    margin-left: 2rem;
+    gap: 2rem;
+    color: #686967;
+    font-size: 0.8rem;
+  }
+}

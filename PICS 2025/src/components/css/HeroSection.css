@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+.hero-section {
+  display: flex;
+  width: 100%;
+  min-height: auto;
+  /* height: 100%; */
+}
+
+.left-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 60%;
+  height: 500px;
+  overflow: hidden;
+}
+.left-container img {
+  clip-path: polygon(0 0, 0% 100%, 100% 100%, 82% 0);
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 490px;
+  background-color: white;
+  color: black;
+  margin-left: 40px;
+  margin-right: 10px;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 50%;
+  font-size: 1rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0.4rem;
+  transform: translateY(-50%);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-left {
+  left: 10px;
+}
+
+.arrow-right {
+  right: -1px;
+}
+.logo {
+  display: flex;
+  justify-content: end;
+  /* margin-right: 30px; */
+  margin-top: -2rem;
+}
+
+.date {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Barlow", sans-serif;
+  margin-top: -15rem;
+  font-size: 1.3rem;
+}
+.date:hover {
+  border: 3px solid #2385b8;
+  border-radius: 12px;
+}
+
+.location {
+  margin-top: 13px;
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+  color: #363736;
+  font-size: 1.3rem;
+}
+.head {
+  margin-top: 12px;
+  font-weight: 900;
+  font-family: "Barlow", sans-serif;
+  color: #363736;
+  font-size: 3rem;
+}
+
+.sub-head {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: "Barlow", sans-serif;
+  color: #363736;
+  font-size: 1rem;
+}
+.descriptive-text {
+  margin-top: 10px;
+  padding: 5px;
+  line-height: 1.3rem;
+  font-family: "Barlow", sans-serif;
+  width: 92%;
+  color: #5b5b5a;
+}
+
+@media (max-width: 900px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    min-height: auto;
+  }
+  .left-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    height: 300px;
+    margin-left: -1rem;
+  }
+  .left-container img {
+    clip-path: none;
+    height: 265px;
+    border-radius: 10px;
+  }
+  .right-container {
+    width: 80%;
+  }
+  .logo {
+    display: flex;
+    justify-content: end;
+    /* margin-right: 30px; */
+    margin-top: -8rem;
+    margin-right: 1.8rem;
+  }
+  .date {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-family: "Barlow", sans-serif;
+    margin-top: -9rem;
+    margin-left: 3.5rem;
+  }
+  .date:hover {
+    border: 3px solid #2385b8;
+    border-radius: 12px;
+  }
+  .location {
+    margin-top: 17px;
+    margin-left: -1.5rem;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    color: #363736;
+    /* width: 80%; */
+    text-align: center;
+  }
+  .head {
+    margin-top: 12px;
+    margin-left: 3rem;
+    font-weight: 900;
+    font-family: "Barlow", sans-serif;
+    color: #363736;
+    font-size: 3rem;
+    /* width: 70%; */
+  }
+
+  .sub-head {
+    margin-top: 10px;
+    margin-right: 1.5rem;
+    margin-bottom: 0;
+    font-family: "Barlow", sans-serif;
+    color: #363736;
+    text-align: center;
+    /* width: 80%; */
+  }
+  .descriptive-text {
+    margin-top: 0.7rem;
+    padding: 5px;
+    line-height: 1.3rem;
+    font-family: "Barlow", sans-serif;
+    width: 100%;
+    color: #5b5b5a;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: -1rem;
+  }
+}
