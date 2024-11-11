@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 // import '../styling/HeroSection.css';
 import "../components/css/HeroSection.css"
 import logo from "../assets/logo3.png";
+import d from "../assets/d.png";
+import b from "../assets/b.png";
+import a from "../assets/a.png";
+import c from "../assets/c.png";
+import e from "../assets/e.png";
 
 const HeroSection = () => {
   const images = [
@@ -9,6 +14,7 @@ const HeroSection = () => {
     // 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800', 
     // 'https://images.unsplash.com/photo-1495567720989-cebdbdd97913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800', 
     'https://media.glassdoor.com/l/91/0a/10/c4/nit-hamirpur.jpg?signature=5b1e26e2600f530c2c375b3a916a5e81604a02dcdcdabe0089c0267c13c2222e',
+     b,d,a,c,e,
     'https://media.glassdoor.com/lst2x/23/92/73/d2/nit-hamirpur.jpg?signature=6923482caaae3bd30aac0ac58270b1ece1579b64679993808b9ff7c0f6dfda99',
     'https://media.glassdoor.com/lst2x/91/0a/10/c4/nit-hamirpur.jpg?signature=0db4cb4123445c279aba79ef7675736bd7ecffe0e6ba79d1f6d10fd7bfbdbdcf',
     'https://media.glassdoor.com/l/91/0a/10/c4/nit-hamirpur.jpg?signature=5b1e26e2600f530c2c375b3a916a5e81604a02dcdcdabe0089c0267c13c2222e',
