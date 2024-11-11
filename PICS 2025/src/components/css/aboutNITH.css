@@ -86,10 +86,10 @@
 
 .backlogo {
   position: absolute;
-  width: 20%;
-  height: 40%;
+  width: 10%;
+  height: 20%;
   opacity: 0.15;
-  margin: 3rem 39rem 0rem 39rem;
+  margin: 6rem 39rem 0rem 43rem;
 }
 .dataHeader {
   display: flex;

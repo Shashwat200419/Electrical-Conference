@@ -21,7 +21,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 37.5%;
+  height: 41.5%;
   background-color: rgba(0, 0, 0, 0.45);
   z-index: 1;
 }
@@ -36,7 +36,7 @@
   z-index: 2; /* Position the text above the overlay */
   font-size: 3.5rem;
   /* color: #ebedef; */
-  width: 32%;
+  width: 36%;
   padding-bottom: 0.4rem;
   font-family: "Barlow", sans-serif;
 }
@@ -104,6 +104,7 @@
   padding-bottom: 2rem;
   box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2); /* 4px to the right, no vertical offset */
   background-color: white;
+  height: 630px;
 }
 .pg1 h3 {
   font-size: 1.4rem;
@@ -168,14 +169,14 @@
 
 .mapContainer1 {
   position: absolute;
-  left: -165%;
+  left: -147%;
   width: 100%;
   height: 630px;
   text-align: center;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 4px 12px rgba(172, 173, 172, 0.7);
-  margin: 1.8rem 3rem 1rem 58rem;
+  margin: 1.8rem 3rem 1rem 52rem;
   border: 1px solid #a4a2a3;
   z-index: 1;
 }

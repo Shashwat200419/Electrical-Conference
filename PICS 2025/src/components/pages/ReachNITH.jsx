@@ -22,7 +22,7 @@ export const ReachNITH = () => {
              of India and journey is of nine hours from Old Delhi Railway Station. Taxi/Bus services are available from Hamirpur to Una. NIT Hamirpur
               is around 4 kilometers away from Hamirpur bus stand.<br/> To find details about train service from different cities towards Una, visit <a href="http://www.indianrail.gov.in/">http://www.indianrail.gov.in/</a>.</p>
           <h3>Air Link</h3>
-          <p>The nearest airport is at Dharamshala (Gaggal, district Kangra) which is about 75 Kms from Hamirpur. Currently, Kingfisher Airlines operates from Delhi to Dharamshala.
+          <p>The nearest airport is at Dharamshala (Gaggal, district Kangra) which is about 75 Kms and Chandigarh International Airport, which is about 185 kilometers away from Hamirpur. Currently, Kingfisher Airlines operates from Delhi to Dharamshala.
              For more information, please visit the website of Kingfisher Airlines..</p>       
         </div>
         <div className="pg2">

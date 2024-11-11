@@ -21,7 +21,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 37.5%;
+  height: 41.5%;
   background-color: rgba(0, 0, 0, 0.45);
   z-index: 1;
 }
@@ -36,7 +36,7 @@
   z-index: 2; /* Position the text above the overlay */
   font-size: 3.5rem;
   /* color: #ebedef; */
-  width: 37%;
+  width: 41%;
   padding-bottom: 0.4rem;
   font-family: "Barlow", sans-serif;
 }
