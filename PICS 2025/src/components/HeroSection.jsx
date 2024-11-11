@@ -53,10 +53,10 @@ const HeroSection = () => {
             width={300}
           />
         </div>
-        <p className='date'>July 10 - 12, 2025</p>
-        <p className='location'>National institute of technology, Hamirpur</p>
         <h1 className='head'>PICS 2025</h1>
-        <h3 className='sub-head'>64th IEEE Conference on Decision and Control</h3>
+        <h3 className='sub-head'>1st International Conference on Power and Intelligent Control System</h3>
+        <p className='date'>July 04 - 05, 2025</p>
+        <p className='location'>National institute of technology, Hamirpur</p>
         <p className='descriptive-text'>The PICS is recognized as the premier scientific and engineering conference dedicated to the advancement of the theory and practice of systems and control. The CDC annually brings together an international community of researchers and practitioners in the field of control systems to discuss new research results, perspectives on future developments, and innovative applications relevant to decision-making, systems, automatic control, optimization, and related areas.</p>
       </div>
 

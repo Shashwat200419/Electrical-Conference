@@ -83,7 +83,7 @@ body {
   align-items: center;
   font-weight: 500;
   font-family: "Barlow", sans-serif;
-  margin-top: -15rem;
+  margin-top: 1.3rem;
   font-size: 1.3rem;
 }
 .date:hover {
@@ -99,7 +99,7 @@ body {
   font-size: 1.3rem;
 }
 .head {
-  margin-top: 12px;
+  margin-top: -33%;
   font-weight: 900;
   font-family: "Barlow", sans-serif;
   color: #363736;

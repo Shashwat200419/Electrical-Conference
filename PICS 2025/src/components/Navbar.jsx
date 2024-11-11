@@ -52,17 +52,22 @@ export const Navbar = () => {
         </li>
         <li>
           <div className="nav-item">
-            <a to="/About" className="dropdown-toggle" onMouseEnter={toggleDropdown1} onClick={toggleDropdown1}>About
+            <a to="/About" className="dropdown-toggle" onMouseEnter={toggleDropdown1} onClick={toggleDropdown1}>Call for Papers
             <span className={`arrow ${isOpen1 ? 'open' : ''}`}>&#9662;</span>
           </a>
           {isOpen1 && (
             <div className="dropdown">
-              <NavLink className="dropdown-btn" to="/Committees">Committees</NavLink>
-              <NavLink className="dropdown-btn" to="/History">History</NavLink>
-              <NavLink className="dropdown-btn" to="/Papers">Call for Papers</NavLink>
+              <NavLink className="dropdown-btn" to="/ImpDates">Important Dates</NavLink>
+              {/* <NavLink className="dropdown-btn" to="/Committees">Committees</NavLink> */}
+              <NavLink className="dropdown-btn" to="/author">Author Information</NavLink>
+              <a className="dropdown-btn" to="/Papers" href="/mm">Paper Submission Link</a>
+              {/* <NavLink className="dropdown-btn" to="/Papers">Call for Papers</NavLink> */}
             </div>
           )}
           </div>
+        </li>
+        <li>
+          <NavLink to="/committees">Organization Committees</NavLink>
         </li>
         <li>
           <div className="nav-item">
@@ -71,13 +76,18 @@ export const Navbar = () => {
             </a>
             {isOpen2 && (
               <div className="dropdown">   
-              <NavLink className="dropdown-btn" to="/Author">Author Information</NavLink>
-              <NavLink className="dropdown-btn" to="/Workshops">Workshops</NavLink>
+              <NavLink className="dropdown-btn" to="/ConferenceOverview">Conference Overview</NavLink>
+              {/* <NavLink className="dropdown-btn" to="/Author">Author Information</NavLink> */}
+              <NavLink className="dropdown-btn" to="/SessionInfo">Session Information</NavLink>
+              <NavLink className="dropdown-btn" to="/Keynote">Keynote Speakers</NavLink>
             </div>
             )}
           </div>
         </li>
         <li>
+          <a to="/" href="/mmm">Registration</a>
+        </li>
+        {/* <li>
           <div className="nav-item">
             <a to="/Students"  className="dropdown-toggle" onMouseEnter={toggleDropdown3} onClick={toggleDropdown3}>Students
             <span className={`arrow ${isOpen3 ? 'open' : ''}`}>&#9662;</span>
@@ -89,10 +99,10 @@ export const Navbar = () => {
             </div>
             )}
           </div>
-        </li>
+        </li> */}
         <li>
           <div className="nav-item">
-            <a to="/Travel"   className="dropdown-toggle" onMouseEnter={toggleDropdown4} onClick={toggleDropdown4}>Travel and Venue
+            <a to="/Travel"   className="dropdown-toggle" onMouseEnter={toggleDropdown4} onClick={toggleDropdown4}>Venue/Travel
             <span className={`arrow ${isOpen4 ? 'open' : ''}`}>&#9662;</span>
             </a>
             {isOpen4 && (
@@ -106,7 +116,7 @@ export const Navbar = () => {
           </div>
         </li>
         <li>
-          <a href={pdf}>Sponsors and Exhibitor
+          <a href={pdf}>Call for Sponsors
           <span style={{ color: 'black' }}>&#128279;</span>
           </a>
         </li>

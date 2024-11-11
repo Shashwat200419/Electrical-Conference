@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components/Navbar";
-import { About, Program, Home, Students, Committees, Papers, History, Author, Workshops, FacultyMeet, StudentInfo, AboutNITH, Accommodations, ReachNITH, ConferenceVenue } from "./components/pages";
+import { About, Program, Home, Students, Committees, Papers, History, Author, FacultyMeet, StudentInfo, AboutNITH, Accommodations, ReachNITH, ConferenceVenue, ImpDates, ConferenceOverview, SessionInfo, KeynoteSpeakers } from "./components/pages";
 import { Travel } from "./components/pages/Travel";
 import { Sponsor } from "./components/pages/Sponsor";
 import ImageSlider from "./components/ImageSlider";
@@ -25,13 +25,16 @@ function App() {
         <Route path="/History" element={<History />} />
         <Route path="/Papers" element={<Papers />} />
         <Route path="/Author" element={<Author />} />
-        <Route path="/Workshops" element={<Workshops />} />
+        <Route path="/SessionInfo" element={<SessionInfo />} />
         <Route path="/FacultyMeet" element={<FacultyMeet />} />
         <Route path="/StudentInfo" element={<StudentInfo />} />
         <Route path="/AboutNITH" element={<AboutNITH />} />
         <Route path="/Accommodations" element={<Accommodations />} />
         <Route path="/ReachNITH" element={<ReachNITH />} />
         <Route path="/ConferenceVenue" element={<ConferenceVenue />} />
+        <Route path="/ImpDates" element={<ImpDates />} />
+        <Route path="/ConferenceOverview" element={<ConferenceOverview />} />
+        <Route path="/Keynote" element={<KeynoteSpeakers />} />
       </Routes>
       {/* <HeroSection/> */}
       {/* <DateSection/> */}

@@ -8,13 +8,13 @@
   border-radius: 10px;
   overflow: hidden; /* Optional: for rounded corners */
   box-shadow: 0px 4px 12px rgba(172, 173, 172, 0.7);
-  margin: 1.8rem 3rem 1rem 54rem;
+  margin: 1.8rem 3rem 1rem 61rem;
 }
 
 .coordinates {
   position: absolute;
-  top: 45%;
-  left: 80%;
+  top: 40%;
+  left: 83.5%;
   display: flex;
   gap: 1rem;
   margin-top: 10px;
@@ -27,9 +27,9 @@
 
 .zoom-buttons {
   position: absolute;
-  left: 90%;
-  bottom: 20px;
-  right: 20px;
+  left: 93%;
+  bottom: 110px;
+  right: 40px;
   display: flex;
   flex-direction: column;
   gap: 8px;
