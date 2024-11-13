@@ -83,7 +83,7 @@ body {
   align-items: center;
   font-weight: 500;
   font-family: "Barlow", sans-serif;
-  margin-top: 1.3rem;
+  margin-top: 1rem;
   font-size: 1.3rem;
 }
 .date:hover {
@@ -91,15 +91,23 @@ body {
   border-radius: 12px;
 }
 
-.location {
-  margin-top: 13px;
+.department {
+  margin-top: 8px;
   font-weight: bold;
   font-family: "Barlow", sans-serif;
   color: #363736;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+}
+
+.location {
+  margin-top: 5px;
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+  color: #363736;
+  font-size: 0.9rem;
 }
 .head {
-  margin-top: -33%;
+  margin-top: -32%;
   font-weight: 900;
   font-family: "Barlow", sans-serif;
   color: #363736;
@@ -114,12 +122,13 @@ body {
   font-size: 1rem;
 }
 .descriptive-text {
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 5px;
-  line-height: 1.3rem;
+  line-height: 1.2rem;
   font-family: "Barlow", sans-serif;
   width: 92%;
   color: #5b5b5a;
+  font-size: 1rem;
 }
 
 @media (max-width: 900px) {

@@ -38,7 +38,7 @@ export const Navbar = () => {
         </a>
       </div>
       <Link to="/" className="title">
-           PICS
+           PICS 2025
       </Link>
       </div>    
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
@@ -67,7 +67,7 @@ export const Navbar = () => {
           </div>
         </li>
         <li>
-          <NavLink to="/committees">Organization Committees</NavLink>
+          <NavLink to="/committees">Committee</NavLink>
         </li>
         <li>
           <div className="nav-item">
@@ -109,9 +109,9 @@ export const Navbar = () => {
             {isOpen4 && (
               <div className="dropdown">   
               <NavLink to="/AboutNITH" className="dropdown-btn">About NIT-H</NavLink>
+              <NavLink to="/ReachNITH" className="dropdown-btn">How to Reach</NavLink>
               <NavLink to="/Accommodations" className="dropdown-btn">Accommodations</NavLink>
-              <NavLink to="/ReachNITH" className="dropdown-btn">How to Reach NIT-H</NavLink>
-              <NavLink to="/ConferenceVenue" className="dropdown-btn">The Conference Venue</NavLink>
+              <NavLink to="/ConferenceVenue" className="dropdown-btn">Conference Venue</NavLink>
             </div>
             )}
           </div>
@@ -120,6 +120,9 @@ export const Navbar = () => {
           <a href={pdf}>Call for Sponsors
           <span style={{ color: 'black' }}>&#128279;</span>
           </a>
+        </li>
+        <li>
+          <NavLink to="/Contact">Contact</NavLink>
         </li>
       </ul>
       {loading && <div className="loading-line"></div>}

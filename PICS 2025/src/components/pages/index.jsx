@@ -20,3 +20,4 @@ export * from "./ConferenceVenue";
 export * from "./ImpDates";
 export * from "./ConferenceOverview";
 export * from "./KeynoteSpeakers";
+export * from "./Contact";

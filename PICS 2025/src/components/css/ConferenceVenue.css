@@ -28,7 +28,7 @@
 
 .ConferenceVenue h1 {
   position: relative;
-  left: 29%;
+  left: 32%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@
   z-index: 2; /* Position the text above the overlay */
   font-size: 3.5rem;
   /* color: #ebedef; */
-  width: 41%;
+  width: 34%;
   padding-bottom: 0.4rem;
   font-family: "Barlow", sans-serif;
 }
@@ -80,6 +80,42 @@
     width: 100%;
     left: 0;
   }
+}
+
+.dataHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+}
+
+.Venue {
+  color: #650f13;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-left: -9rem;
+  margin-top: -3rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.dataHeader img {
+  width: 50%;
+  height: 50%;
+  margin-top: 2rem;
+  margin-left: -1rem;
+  border: 2px solid black;
+  border-radius: 0.3rem;
+}
+
+.Department_Info {
+  text-align: start;
+  line-height: 1.5;
+  width: 110%;
+  margin-left: -18rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #686967;
 }
 
 @media (max-width: 480px) {
