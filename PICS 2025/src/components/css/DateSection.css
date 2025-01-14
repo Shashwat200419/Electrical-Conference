@@ -41,7 +41,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25vw;
+  width: 20vw;
   height: auto;
   min-height: 200px;
   font-family: "Barlow", sans-serif;
@@ -68,14 +68,15 @@
 }
 
 .datepone {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: bold;
   color: #002868;
   font-family: "Barlow", sans-serif;
+  margin-top: 0.4rem;
 }
 
 .dateptwo {
-  font-size: 16px;
+  font-size: 19px;
   font-weight: bold;
   color: black;
   margin-top: 5px;

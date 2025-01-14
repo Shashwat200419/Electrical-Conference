@@ -115,14 +115,14 @@ body {
 }
 
 .sub-head {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 0;
   font-family: "Barlow", sans-serif;
   color: #363736;
   font-size: 1rem;
 }
 .descriptive-text {
-  margin-top: 5px;
+  margin-top: 10px;
   padding: 5px;
   line-height: 1.2rem;
   font-family: "Barlow", sans-serif;

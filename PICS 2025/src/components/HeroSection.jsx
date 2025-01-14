@@ -64,7 +64,12 @@ const HeroSection = () => {
         <p className='date'>July 04 - 05, 2025</p>
         <p className='department'>Department of Electrical Engineering</p>
         <p className='location'>National institute of technology, Hamirpur</p>
-        <p className='descriptive-text'>The PICS is recognized as the premier scientific and engineering conference dedicated to the advancement of the theory and practice of systems and control. The CDC annually brings together an international community of researchers and practitioners in the field of control systems to discuss new research results, perspectives on future developments, and innovative applications relevant to decision-making, systems, automatic control, optimization, and related areas.</p>
+        <p className='descriptive-text'>The Power and Intelligent Control Systems (PICS-2025) is the first
+ international conference dedicated to power engineering, control systems,
+ and artificial intelligence. It brings together researchers, academicians,
+ and practitioners to share ideas, discuss emerging technologies, and
+ inspire transformative advancements. Join us in shaping the future of
+ these dynamic fields!</p>
       </div>
 
       </div>

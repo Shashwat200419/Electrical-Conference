@@ -92,6 +92,28 @@
   margin: auto;
 }
 
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  justify-contact: center;
+  align-items: center;
+}
+.contact_info h2 {
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.contact_info span {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact_info span.last_span {
+  margin-bottom: 4.25rem;
+}
+
 @media (max-width: 480px) {
   .Card1 {
     display: flex;
