@@ -72,6 +72,12 @@ body {
   /* margin-right: 30px; */
   margin-top: -2rem;
 }
+.logo-image {
+  width: 55%;
+  height: 60%;
+  margin-bottom: 9rem;
+  margin-top: 0.5rem;
+}
 
 .date {
   border: 1px solid black;

@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 // import '../styling/HeroSection.css';
 import "../components/css/HeroSection.css"
 import logo from "../assets/logo3.png";
+import nlogo from "../assets/nlogo.png";
+import nlogoblue from "../assets/nlogoblue.png";
 import d from "../assets/d.png";
 import b from "../assets/b.png";
 import a from "../assets/a.png";
@@ -51,7 +53,7 @@ const HeroSection = () => {
       <div className="right-container">
         <div className="logo">
         <img
-            src={logo}
+            src={nlogoblue}
             // src="https://confcats-siteplex.s3.us-east-1.amazonaws.com/cdc25/large_Logo_CDC_2025_3e6db1dc79.png"
             alt="PICS Logo"
             className="logo-image"

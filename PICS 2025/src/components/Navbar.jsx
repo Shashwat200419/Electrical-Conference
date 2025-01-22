@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 
 import "./Navbar.css";
 import logo2 from "../assets/logo2.png";
+import nlogowhite from "../assets/nlogowhite.png";
 import pdf from "../assets/1.pdf";
 import { Link, NavLink } from "react-router-dom";
 
@@ -34,7 +35,7 @@ export const Navbar = () => {
       <div className="logo_title_div">
       <div className="nav-logo">
         <a href="/">
-          <img src={logo2} alt="Logo" className="logo2" />
+          <img src={nlogowhite} alt="Logo" className="logo2" />
         </a>
       </div>
       <Link to="/" className="title">

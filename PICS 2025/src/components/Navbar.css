@@ -54,7 +54,7 @@ nav .title {
   padding: 0rem;
   margin: 0 0.5rem;
   margin-right: 1rem;
-  margin-left: 7.1rem;
+  margin-left: 2.1rem;
   /* z-index: 5; */
   /* width: 40rem; */
 }
@@ -72,11 +72,11 @@ nav div div.nav-logo {
 }
 
 nav div.nav-logo a img.logo2 {
-  width: 550%;
-  height: 550%;
-  margin-top: 3.7rem;
+  width: 500%;
+  height: 500%;
+  margin-top: 1rem;
   /* margin-left: 10rem; */
-  margin-right: 3rem;
+  margin-left: -4rem;
 }
 
 nav ul {
