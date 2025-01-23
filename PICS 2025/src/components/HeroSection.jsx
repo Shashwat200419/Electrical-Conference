@@ -9,12 +9,14 @@ import b from "../assets/b.png";
 import a from "../assets/a.png";
 import c from "../assets/c.png";
 import e from "../assets/e.png";
+import m from "../assets/m.jpeg";
 
 const HeroSection = () => {
   const images = [
     // 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800', 
     // 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800', 
-    // 'https://images.unsplash.com/photo-1495567720989-cebdbdd97913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800', 
+    // 'https://images.unsplash.com/photo-1495567720989-cebdbdd97913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800',
+    m, 
     'https://media.glassdoor.com/l/91/0a/10/c4/nit-hamirpur.jpg?signature=5b1e26e2600f530c2c375b3a916a5e81604a02dcdcdabe0089c0267c13c2222e',
      b,d,a,c,e,
     'https://media.glassdoor.com/lst2x/23/92/73/d2/nit-hamirpur.jpg?signature=6923482caaae3bd30aac0ac58270b1ece1579b64679993808b9ff7c0f6dfda99',
