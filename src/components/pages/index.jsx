@@ -1,9 +1,7 @@
-export * from "./About";
+
 
 export * from "./Home";
-export * from "./Students";
-export * from "./Travel";
-export * from "./Sponsor";
+
 
 export * from "./Committees";
 export * from "./History";
