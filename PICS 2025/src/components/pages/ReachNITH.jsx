@@ -10,7 +10,7 @@ import FooterSection from "../FooterSection";
 export const ReachNITH = () => {
   return (
     <div className="mainDiv">
-      <p className="ReachNITH" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>How to reach NIT-H</h1></p>
+      <p className="ReachNITH" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>How to reach NITH</h1></p>
       <div className="book">
         <div className="pg1">
           <h3>Road Link</h3>

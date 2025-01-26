@@ -1,18 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Lexend:wght@100&display=swap");
 
 .accommodations {
   background-color: #02273d;
   font-size: 4rem;
   color: #d7d7f3;
   width: 100%;
-  padding: 2rem;
-  padding-left: 8rem;
-  padding-top: 5rem;
-  padding-bottom: 4rem;
-  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+  padding: 3rem 8rem 4rem 8rem;
   font-family: "Barlow", sans-serif;
   font-weight: 600;
-  /* z-index: 10; */
+  text-align: center;
+  position: relative;
 }
 
 .accommodations::before {
@@ -21,22 +18,21 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 41.5%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.45);
   z-index: 0;
 }
 
 .accommodations h1 {
   position: relative;
-  left: 33%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #e8eaea;
-  z-index: 2; /* Position the text above the overlay */
+  z-index: 2;
   font-size: 3.5rem;
-  /* color: #ebedef; */
-  width: 32%;
+  width: fit-content;
   padding-bottom: 0.4rem;
   font-family: "Barlow", sans-serif;
 }
@@ -48,11 +44,52 @@
   left: 50%;
   height: 4px;
   width: 0;
-  background-color: #2385b8; /* Border color */
+  background-color: #1d6e94;
   transition: width 0.45s ease, left 0.45s ease;
   border-radius: 5rem;
   animation: expandBorderBothWays 1s ease forwards;
 }
+
+.accommodations h1:hover::after {
+  width: 100%;
+  left: 0;
+  animation: expandBorderOnHover 1s ease forwards;
+}
+
+.accomodation_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: #d7d7f3;
+}
+
+.accomodation_info p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: "Barlow", sans-serif;
+  line-height: 1.6;
+}
+
+.accomodation_info p.first {
+  font-weight: 600;
+  /* color: #2385b8; */
+  color: #1d6e94;
+}
+
+.accomodation_info p.second {
+  font-weight: 500;
+  color: black;
+}
+
+/* Animations */
 @keyframes expandBorderBothWays {
   from {
     width: 0;
@@ -62,13 +99,6 @@
     width: 100%;
     left: 0;
   }
-}
-
-.accommodations h1:hover::after {
-  /* border-bottom: 2px solid #2385b8; */
-  width: 100%;
-  left: 0;
-  animation: expandBorderOnHover 1s ease forwards;
 }
 
 @keyframes expandBorderOnHover {
@@ -82,62 +112,58 @@
   }
 }
 
-.accomodation_info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 3rem;
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .accommodations {
+    font-size: 3.5rem;
+    padding: 2rem 5rem;
+  }
+
+  .accommodations h1 {
+    font-size: 3rem;
+  }
+
+  .accomodation_info {
+    gap: 1.5rem;
+    font-size: 1.4rem;
+  }
 }
 
-.accomodation_info p.first {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  gap: 1rem;
-}
+@media (max-width: 768px) {
+  .accommodations {
+    font-size: 3rem;
+    padding: 2rem 3rem;
+  }
 
-.accomodation_info p.second {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  gap: 1rem;
+  .accommodations h1 {
+    font-size: 2.8rem;
+  }
+
+  .accomodation_info {
+    gap: 1.2rem;
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 480px) {
   .accommodations {
-    font-size: 2.2rem;
-    padding-left: 1rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    font-size: 2.5rem;
+    padding: 2rem 1rem;
   }
+
   .accommodations h1 {
-    position: relative;
-    left: 11%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #e8eaea;
-    z-index: 2; /* Position the text above the overlay */
     font-size: 2.3rem;
-    /* color: #ebedef; */
-    width: 82%;
-    padding-bottom: 0.4rem;
-    font-family: "Barlow", sans-serif;
+    width: 75%;
   }
-  .accommodations::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 30.8%;
-    background-color: rgba(0, 0, 0, 0.45);
-    z-index: 0;
+
+  .accomodation_info {
+    gap: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .accomodation_info p {
+    text-align: center;
+    font-size: 1rem;
   }
 }

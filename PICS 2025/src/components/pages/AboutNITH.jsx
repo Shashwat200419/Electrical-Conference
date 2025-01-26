@@ -7,9 +7,9 @@ import FooterSection from "../FooterSection";
 
 export const AboutNITH = () => {
   return (
-    <div className="mainDiv">
+    <div className="mainDivv">
       <p className="aboutNITH" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>About NIT-H</h1></p>
-      <div className="dataHeader">
+      <div className="dataHeaderr">
       <p className="NITH">National Institute of Technology, Hamirpur</p>
       {/* <img src="https://d13loartjoc1yn.cloudfront.net/upload/institute/images/large/221111023211_NIT_HAMIRPUR_CAMPUS.webp" alt="" className="campusPhoto" /> */}
       <img src="https://nith.ac.in/uploads/topics/nit-logo15954991401255.jpg" alt="nith_logo" className="nithLogo"/>

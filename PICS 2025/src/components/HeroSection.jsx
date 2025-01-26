@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import "../components/css/HeroSection.css"
 import logo from "../assets/logo3.png";
 import nlogo from "../assets/nlogo.png";
-import nlogoblue from "../assets/nlogoblue.png";
+import nlogoblue from "../assets/PICSLOGO.png";
 import d from "../assets/d.png";
 import b from "../assets/b.png";
 import a from "../assets/a.png";
@@ -59,21 +59,21 @@ const HeroSection = () => {
             // src="https://confcats-siteplex.s3.us-east-1.amazonaws.com/cdc25/large_Logo_CDC_2025_3e6db1dc79.png"
             alt="PICS Logo"
             className="logo-image"
-            height={400}
-            width={300}
+            height={100}
+            width={100}
           />
         </div>
-        <h1 className='head'>PICS 2025</h1>
-        <h3 className='sub-head'>1st International Conference on Power and Intelligent Control System</h3>
-        <p className='date'>July 04 - 05, 2025</p>
-        <p className='department'>Department of Electrical Engineering</p>
-        <p className='location'>National institute of technology, Hamirpur</p>
-        <p className='descriptive-text'>The Power and Intelligent Control Systems (PICS-2025) is the first
+        <div className="headdiv"><h1 className='head'>PICS 2025</h1></div>
+        <div className="subheaddiv"><h3 className='sub-head'>1st International Conference on Power and Intelligent Control System</h3></div>
+        <div className="datediv"><p className='date'>July 04 - 05, 2025</p></div>
+        <div className="departmentdiv"><p className='department'>Department of Electrical Engineering</p></div>
+        <div className="locationdiv"><p className='location'>National institute of technology, Hamirpur</p></div>
+        <div className="descriptivediv"><p className='descriptive-text'>The Power and Intelligent Control Systems (PICS-2025) is the first
  international conference dedicated to power engineering, control systems,
  and artificial intelligence. It brings together researchers, academicians,
  and practitioners to share ideas, discuss emerging technologies, and
  inspire transformative advancements. Join us in shaping the future of
- these dynamic fields!</p>
+ these dynamic fields!</p></div>
       </div>
 
       </div>

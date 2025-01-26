@@ -9,83 +9,8 @@ import FooterSection from "../FooterSection";
 export const Committees = () => {
   return (
     <div className="mainDiv">
-      <p className="ImpDates" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>Committees</h1></p>
+      <p className="Committees" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>Committees</h1></p>
       <div className="cardMain">
-        <h1 className="Honda">Advisory Committee</h1>
-        <div className="advisory_names">
-          <span>Prof. Ramesh Bansal, University of Sharjah</span>
-          <span>Prof. N. P. Padhy, Director, MNIT Jaipur</span>
-          <span>Prof. H. O. Gupta, IIT Roorkee</span>
-          <span>Prof. Praveen Kumar, IIT Guwahati</span>
-          <span>Prof. Deepak M. Fulwani, IIT Jodhpur</span>
-          <span>Prof. Rajesh Kumar, MNIT Jaipur</span>
-          <span>Prof. Bharat Singh Rajpurohit, IIT Jodhpur</span>
-          <span>Prof. Ujjwal Kumar Kalla, NIT Delhi</span>
-          <span>Prof. Madhusudan Singh Yadav, DTU, Delhi</span>
-          <span>Dr. Neeraj Gupta, Sr. Scientist, Global Elect. Ltd., USA</span>
-          <span>Prof. Rohit Bhakar, MNIT Jaipur</span>
-          <span>Prof. K. S. Nagla, B. R Ambedkar NIT Jalandhar</span>
-          <span>Prof. Akhil Rajan Garg, M. B. M. University Jodhpur</span>
-          <span>Prof. Pragati Kumar, Vice-Chancellor, SMVDU Jammu</span>
-          <span>Prof. Shailendra Jain, MNIT Jaipur</span>
-          <span>Prof. Akshay Rathore, SIT Singapore</span>
-          <span>Dr. Baseem Khan, Hawassa University, Ethiopia</span>
-          <span>Prof. Sanjeevikumar Padmanaban, University of South-Eastern Norway</span>
-        </div>
-      {/* <div className="Card1">
-      <Card 
-        image="https://via.placeholder.com/300x200" 
-        name="John Doe" 
-        position="Software Engineer" 
-      />
-      <Card 
-        image="https://via.placeholder.com/300x200" 
-        name="Jane Smith" 
-        position="Project Manager" 
-      />
-      <Card 
-        image="https://via.placeholder.com/300x200" 
-        name="Jane Smith" 
-        position="Project Manager" 
-      />
-      </div> */}
-      {/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
-      {/* <div className="Card1">
-      <Card 
-        image="https://via.placeholder.com/300x200" 
-        name="John Doe" 
-        position="Software Engineer" 
-      />
-      <Card 
-        image="https://via.placeholder.com/300x200" 
-        name="Jane Smith" 
-        position="Project Manager" 
-      />
-      <Card 
-        image="https://via.placeholder.com/300x200" 
-        name="Jane Smith" 
-        position="Project Manager" 
-      />
-      </div> */}
-      {/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
-      {/* <div className="Card1">
-      <Card 
-        image="https://via.placeholder.com/300x200" 
-        name="John Doe" 
-        position="Software Engineer" 
-      />
-      <Card 
-        image="https://via.placeholder.com/300x200" 
-        name="Jane Smith" 
-        position="Project Manager" 
-      />
-      <Card 
-        image="https://via.placeholder.com/300x200" 
-        name="Jane Smith" 
-        position="Project Manager" 
-      />
-      </div> */}
-      {/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
       <h1 className="honda2">Organising Committee</h1>
       <div className="organising_names">
   <div className="name_box">
@@ -229,6 +154,82 @@ export const Committees = () => {
   </div>
   <hr className="divider" />
 </div>
+        <h1 className="Honda">Advisory Committee</h1>
+        <div className="advisory_names">
+          <span>Prof. Ramesh Bansal, University of Sharjah</span>
+          <span>Prof. N. P. Padhy, Director, MNIT Jaipur</span>
+          <span>Prof. H. O. Gupta, IIT Roorkee</span>
+          <span>Prof. Praveen Kumar, IIT Guwahati</span>
+          <span>Prof. Deepak M. Fulwani, IIT Jodhpur</span>
+          <span>Prof. Rajesh Kumar, MNIT Jaipur</span>
+          <span>Prof. Bharat Singh Rajpurohit, IIT Jodhpur</span>
+          <span>Prof. Ujjwal Kumar Kalla, NIT Delhi</span>
+          <span>Prof. Madhusudan Singh Yadav, DTU, Delhi</span>
+          <span>Dr. Neeraj Gupta, Sr. Scientist, Global Elect. Ltd., USA</span>
+          <span>Prof. Rohit Bhakar, MNIT Jaipur</span>
+          <span>Prof. K. S. Nagla, B. R Ambedkar NIT Jalandhar</span>
+          <span>Prof. Akhil Rajan Garg, M. B. M. University Jodhpur</span>
+          <span>Prof. Pragati Kumar, Vice-Chancellor, SMVDU Jammu</span>
+          <span>Prof. Shailendra Jain, MNIT Jaipur</span>
+          <span>Prof. Akshay Rathore, SIT Singapore</span>
+          <span>Dr. Baseem Khan, Hawassa University, Ethiopia</span>
+          <span>Prof. Sanjeevikumar Padmanaban, University of South-Eastern Norway</span>
+        </div>
+      {/* <div className="Card1">
+      <Card 
+        image="https://via.placeholder.com/300x200" 
+        name="John Doe" 
+        position="Software Engineer" 
+      />
+      <Card 
+        image="https://via.placeholder.com/300x200" 
+        name="Jane Smith" 
+        position="Project Manager" 
+      />
+      <Card 
+        image="https://via.placeholder.com/300x200" 
+        name="Jane Smith" 
+        position="Project Manager" 
+      />
+      </div> */}
+      {/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
+      {/* <div className="Card1">
+      <Card 
+        image="https://via.placeholder.com/300x200" 
+        name="John Doe" 
+        position="Software Engineer" 
+      />
+      <Card 
+        image="https://via.placeholder.com/300x200" 
+        name="Jane Smith" 
+        position="Project Manager" 
+      />
+      <Card 
+        image="https://via.placeholder.com/300x200" 
+        name="Jane Smith" 
+        position="Project Manager" 
+      />
+      </div> */}
+      {/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
+      {/* <div className="Card1">
+      <Card 
+        image="https://via.placeholder.com/300x200" 
+        name="John Doe" 
+        position="Software Engineer" 
+      />
+      <Card 
+        image="https://via.placeholder.com/300x200" 
+        name="Jane Smith" 
+        position="Project Manager" 
+      />
+      <Card 
+        image="https://via.placeholder.com/300x200" 
+        name="Jane Smith" 
+        position="Project Manager" 
+      />
+      </div> */}
+      {/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
+
 
 
       {/* <div className="Card2">

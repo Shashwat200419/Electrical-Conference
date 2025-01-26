@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
 
-.committees {
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Committees {
   position: relative;
   background-color: black;
   /* background-color: #02273d; */
@@ -19,7 +25,7 @@
   text-align: center;
 }
 
-.committees::before {
+.Committees::before {
   content: "";
   position: absolute;
   top: 0;
@@ -30,7 +36,7 @@
   z-index: 1;
 }
 
-.committees h1 {
+.Committees h1 {
   position: relative;
   left: 40%;
   display: flex;
@@ -40,16 +46,16 @@
   z-index: 2; /* Position the text above the overlay */
   font-size: 3.5rem;
   /* color: #ebedef; */
-  width: 23%;
+  width: 20%;
   padding-bottom: 0.4rem;
   font-family: "Barlow", sans-serif;
 }
 
-.committees h1::after {
+.Committees h1::after {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 90%;
   height: 4px;
   width: 0;
   background-color: #2385b8; /* Border color */
@@ -68,7 +74,7 @@
   }
 }
 
-.committees h1:hover::after {
+.Committees h1:hover::after {
   /* border-bottom: 2px solid #2385b8; */
   width: 100%;
   left: 0;
@@ -190,14 +196,14 @@
     display: flex;
     flex-direction: column;
   }
-  .committees {
+  .Committees {
     font-size: 2.5rem;
     padding-left: 1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     height: 10rem;
   }
-  .committees::before {
+  .Committees::before {
     height: 10rem;
     content: "";
     position: absolute;
@@ -207,7 +213,7 @@
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
   }
-  .committees h1 {
+  .Committees h1 {
     position: relative;
     left: 15%;
     display: flex;

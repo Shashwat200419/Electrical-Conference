@@ -1,347 +1,193 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
-/* @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
 
-.active {
-  /* background-color: #1d4ed8; */
-  /* background-color: #b5c8fb; */
-  /* border-bottom: 3px solid #ad651e; */
-  border-bottom: 4px solid #2385b8;
-  /* border-bottom: 3.5px solid #e08d3a; */
-  font-weight: 700;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-
+/* Navbar container */
 nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background-color: #650f13;
-  /* background-color: #d0cfce; */
-  /* background-color: #e4e4e4; */
-  /* background-color: #fde8d1; */
-  /* background-color: #edf1f1; */
-  /* background-color: #0f172a; */
   color: white;
   position: sticky;
   top: 0;
-  /* box-shadow: 1px 3px 10px #d8d8da; */
-  /* border-bottom: 2px solid #d0cfce; */
-  height: 5.5rem;
+  height: 4.8rem;
+  padding: 0 1rem;
   z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.navbar-shadow {
-  box-shadow: 1px 2px 8px #650f13;
-  /* border-bottom: 0.0001rem solid #650f13; */
-}
-
-/* nav div.nav-logo {
+/* Navbar logo and title */
+.logo_title_div {
   display: flex;
-  justify-content: start;
   align-items: center;
-} */
+  gap: 0.5rem;
+}
 
-nav .title {
-  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+.nav-logo {
+  width: 48px; /* Adjust to fit smaller screens */
+}
+
+.nav-logo img.logo2 {
+  max-width: 100%;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
+
+/* Title styling */
+.title {
   font-family: "Barlow", sans-serif;
   font-weight: 900;
-  font-size: 2.5rem;
-  margin: 1rem;
-  text-decoration: none;
+  font-size: 1.8rem;
   color: #fefffe;
-  /* color: #2d2d35; */
-  padding: 0rem;
-  margin: 0 0.5rem;
-  margin-right: 1rem;
-  margin-left: 2.1rem;
-  /* z-index: 5; */
-  /* width: 40rem; */
+  text-decoration: none;
 }
 
-nav div.logo_title_div {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 0;
-  width: 23%;
-}
-
-nav div div.nav-logo {
-  width: 10%;
-}
-
-nav div.nav-logo a img.logo2 {
-  width: 500%;
-  height: 500%;
-  margin-top: 1rem;
-  /* margin-left: 10rem; */
-  margin-left: -4rem;
-}
-
+/* Navigation links */
 nav ul {
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 5rem;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+  cursor: pointer;
 }
 
 nav ul li {
-  list-style: none;
+  position: relative; /* For dropdown positioning */
 }
 
 nav ul li a {
-  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
   font-family: "Barlow", sans-serif;
+  font-size: 1rem;
   font-weight: 500;
-  display: flex;
-  text-decoration: none;
-  /* color: #50504f; */
   color: #fefffe;
-  /* color: #2c2d23; */
-  padding: 0.2rem;
-  margin: 0 0.5rem;
-  /* border-radius: 0.15rem; */
-  font-size: 1.1rem;
-  line-height: 1.25rem;
-  cursor: pointer;
-  /* font-weight: 600; */
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 4px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
-nav ul li a:not(.active):hover {
-  /* background-color: #172554; */
-  /* background-color: #b5c8fb; */
+nav ul li a:hover {
   border-bottom: 4px solid #2385b8;
-  /* border-bottom: 3.5px solid #e08d3a; */
-  font-weight: 700;
-  /* color: #8abedb; */
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-.arrow {
-  margin-left: 8px;
-  transition: transform 0.2s ease;
-  font-size: 1.3rem;
-  margin-top: 0.05rem;
 }
 
-.arrow.open {
-  transform: rotate(180deg); /* Rotates arrow when dropdown is open */
-}
-
-nav .menu {
-  display: none;
-  position: absolute;
-  top: 0.75rem;
-  right: 0.5rem;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 2.25rem;
-  height: 2rem;
-}
-
-nav .menu span {
-  height: 0.37rem;
-  width: 90%;
-  background-color: white;
-  border-radius: 0.2rem;
-}
-
-.loading-line {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 6.2px;
-  background-color: #2385b8;
-  /* background-color: #e08d3a; */
-  animation: loading-animation 1.5s ease-out;
-}
-@keyframes loading-animation {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  nav .menu {
-    display: flex;
-    margin-top: 1.2rem;
-    margin-right: 0.8rem;
-    width: 8%;
-    height: 33%;
-  }
-
-  nav .title {
-    display: flex;
-    margin-top: -5rem;
-    /* margin-left: 1rem; */
-    flex-direction: column;
-    align-items: start;
-    margin-left: -1.4rem;
-    font-size: 2rem;
-  }
-
-  nav div.logo_title_div {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 0;
-    width: 50%;
-  }
-
-  nav div div.nav-logo {
-    width: 50%;
-    /* height: 10%; */
-  }
-
-  nav div.logo_title_div div.nav-logo a img.logo2 {
-    width: 9rem;
-    height: 12rem;
-    margin-top: -2rem;
-    margin-left: -2rem;
-    margin-right: 0rem;
-    /* z-index: 100; */
-  }
-
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-    height: 5rem;
-  }
-
-  nav ul {
-    display: none;
-    flex-direction: column;
-    width: 80%;
-    margin-bottom: 0.25rem;
-  }
-
-  nav ul.open {
-    display: flex;
-    margin-top: -5.2rem;
-    /* z-index: 20; */
-    width: 75%;
-    /* background-color: red; */
-  }
-
-  nav ul li {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    /* background-color: #e4e4e4; */
-    background-color: #f9f3ec;
-    margin-top: 0px;
-  }
-
-  nav ul li a {
-    margin: 0.2rem 0.5rem;
-    color: black;
-  }
-
-  nav ul li div div.dropdown {
-    display: none;
-    flex-direction: column;
-    align-item: center;
-    position: absolute;
-    top: 50%;
-    left: -45px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    /* margin-top: 2px; */
-    z-index: 100;
-    width: 80%;
-  }
-
-  nav ul li div.nav-item:hover .dropdown {
-    display: flex;
-    flex-direction: column;
-    top: 100%;
-    left: 5rem;
-    z-index: 100;
-  }
-
-  nav ul li div a {
-    width: 100%;
-    text-align: center;
-  }
-
-  nav ul li div.nav-item div.dropdown .dropdown-btn {
-    width: 100%;
-  }
-}
-
-//////////////////////DROPDOWN////////////////////////////////////////
-.nav-btn {
-  background-color: #444;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.nav-btn:hover {
-  background-color: #555;
-}
-
-.nav-item {
-  position: relative;
-  display: flex;
-  cursor: pointer;
-}
-
-.dropdown {
+/* Dropdown menu styling */
+.nav-item .dropdown {
   display: none;
   position: absolute;
   top: 100%;
-  left: -45px;
-  /* background-color: #fff; */
-  /* background-color: #f9f3ec; */
+  left: 0;
   background-color: #0e0e5c;
-  /* background-color: #f9f3ec; */
-  /* border: 1px solid #ddd; */
-  padding: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  /* margin-top: 1px; */
-  /* border: 1px solid #f9d5b3; */
-  border-radius: 3px;
-  z-index: 1;
-}
-
-.dropdown-btn {
-  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
-  font-family: "Barlow", sans-serif;
-  font-weight: 500;
-  /* background-color: #fff; */
-  /* background-color: #f9f3ec; */
-  background-color: #0e0e5c;
-  /* color: #50504f; */
-  /* color: #080e03; */
   color: white;
-  border: none;
-  padding: 8px 5px;
-  margin: 3px 0;
-  width: 15rem;
-  cursor: pointer;
-  text-align: left;
-  font-size: 0.93rem;
-  /* font-weight: 500; */
-}
-
-.dropdown-btn:hover {
-  /* background-color: #f7f3ea; */
-  /* background-color: #e4e4e4; */
-  background-color: #650f13;
-  font-weight: 700;
-  width: 100%;
-  border-bottom: 3px solid #f35b04;
-  border-radius: 2px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 0.5rem;
+  min-width: 200px;
 }
 
 .nav-item:hover .dropdown {
   display: block;
+}
+
+.dropdown-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.dropdown-btn:hover {
+  background-color: #650f13;
+}
+
+/* Hamburger menu */
+.menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.menu span {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* Mobile Navigation */
+ul.open {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  background-color: #650f13;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 1000;
+}
+
+ul.open li {
+  text-align: center;
+}
+
+ul.open li a {
+  color: white;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+  }
+  nav {
+    height: 4rem;
+  }
+  nav ul {
+    display: none;
+  }
+
+  .nav-logo {
+    width: 43px; /* Adjusted for tablet screens */
+  }
+
+  ul.open {
+    display: flex;
+  }
+
+  .logo_title_div {
+    gap: 0.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-logo {
+    width: 40px;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .menu {
+    width: 20px;
+    height: 15px;
+  }
+
+  ul.open li a {
+    font-size: 0.9rem;
+  }
 }

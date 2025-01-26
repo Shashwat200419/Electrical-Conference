@@ -47,7 +47,7 @@ const MapTilerComponent = () => {
       <Map
         {...viewport}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
-        style={{ width: '100%', height: '630px' }}
+        style={{ width: '100%', height: '770.4px' }}
         mapStyle="https://api.maptiler.com/maps/streets/style.json?key=MU8QvrpOmtlqN83iLfu0"
         // mapStyle="https://api.maptiler.com/maps/satellite/style.json?key=MU8QvrpOmtlqN83iLfu0"
         // mapStyle="https://api.maptiler.com/maps/outdoor-v2/style.json?key=MU8QvrpOmtlqN83iLfu0"

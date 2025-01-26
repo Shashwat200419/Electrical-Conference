@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Lexend:wght@100&display=swap");
 
 .ImpDates {
+  position: relative;
   background-color: #02273d;
   font-size: 4rem;
   color: #d7d7f3;
@@ -9,7 +10,6 @@
   padding-left: 8rem;
   padding-top: 5rem;
   padding-bottom: 4rem;
-  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   text-align: center;
@@ -21,22 +21,21 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 41.5%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.45);
   z-index: 1;
 }
 
 .ImpDates h1 {
   position: relative;
-  left: 33%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #e8eaea;
-  z-index: 2; /* Position the text above the overlay */
+  z-index: 2;
   font-size: 3.5rem;
-  /* color: #ebedef; */
-  width: 30%;
+  width: fit-content;
   padding-bottom: 0.4rem;
   font-family: "Barlow", sans-serif;
 }
@@ -48,11 +47,51 @@
   left: 50%;
   height: 4px;
   width: 0;
-  background-color: #2385b8; /* Border color */
+  background-color: #2385b8;
   transition: width 0.45s ease, left 0.45s ease;
   border-radius: 5rem;
   animation: expandBorderBothWays 1s ease forwards;
 }
+
+.ImpDates h1:hover::after {
+  width: 100%;
+  left: 0;
+  animation: expandBorderOnHover 1s ease forwards;
+}
+
+.dataHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.5rem;
+  margin-left: 36rem;
+  gap: 1.5rem; /* Added spacing between dates */
+}
+
+.Date {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  color: #650f13;
+}
+
+.Date2 {
+  font-size: 1.8rem;
+  margin-bottom: 4.5rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  color: #650f13;
+}
+
+.span {
+  color: black;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/* Animations */
 @keyframes expandBorderBothWays {
   from {
     width: 0;
@@ -62,13 +101,6 @@
     width: 100%;
     left: 0;
   }
-}
-
-.ImpDates h1:hover::after {
-  /* border-bottom: 2px solid #2385b8; */
-  width: 100%;
-  left: 0;
-  animation: expandBorderOnHover 1s ease forwards;
 }
 
 @keyframes expandBorderOnHover {
@@ -82,67 +114,81 @@
   }
 }
 
-.dataHeader {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  margin-top: 4.5rem;
-  margin-left: 36rem;
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .ImpDates {
+    font-size: 3.5rem;
+    padding-left: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  .ImpDates h1 {
+    font-size: 3rem;
+  }
+
+  .dataHeader {
+    margin-left: 24rem;
+  }
 }
 
-.Date {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  font-family: "Barlow", sans-serif;
-  font-weight: 700;
-  /* color: #2385b8; */
-  color: #650f13;
-}
+@media (max-width: 768px) {
+  .ImpDates {
+    font-size: 3rem;
+    padding-left: 3rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2.5rem;
+  }
 
-.Date2 {
-  font-size: 1.5rem;
-  margin-bottom: 4.5rem;
-  font-family: "Barlow", sans-serif;
-  font-weight: 700;
-  color: #650f13;
-}
+  .ImpDates h1 {
+    font-size: 2.5rem;
+    width: 47%;
+  }
 
-.span {
-  color: black;
-  font-weight: 500;
-  font-size: 1.4rem;
+  .dataHeader {
+    margin-left: 10rem;
+    align-items: flex-start;
+  }
+
+  .Date,
+  .Date2 {
+    font-size: 1.6rem;
+  }
+
+  .span {
+    font-size: 1.4rem;
+  }
 }
 
 @media (max-width: 480px) {
   .ImpDates {
     font-size: 2.5rem;
     padding-left: 1rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
+
   .ImpDates h1 {
-    position: relative;
-    left: 8%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #e8eaea;
-    z-index: 2;
     font-size: 2rem;
-    /* color: #ebedef; */
-    width: 88%;
-    padding-bottom: 0.4rem;
-    font-family: "Barlow", sans-serif;
+    width: 65%;
   }
+
   .ImpDates::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 30%;
-    background-color: rgba(0, 0, 0, 0.45);
-    z-index: 1;
+    height: 100%;
+  }
+
+  .dataHeader {
+    margin-left: 0;
+    padding: 0 2rem;
+    align-items: flex-start;
+  }
+
+  .Date,
+  .Date2 {
+    font-size: 1.4rem;
+  }
+
+  .span {
+    font-size: 1.2rem;
   }
 }

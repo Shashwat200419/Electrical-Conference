@@ -11,7 +11,7 @@
   margin: 4.5rem 3rem 1rem 28rem;
 }
 
-.coordinates {
+.coordinatess {
   position: absolute;
   top: 90%;
   left: 53%;
@@ -75,10 +75,10 @@
   .zoom-buttons {
     position: absolute;
     left: 76%;
-    bottom: 54%;
+    bottom: -9%;
     right: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5px;
     margin-bottom: 0.8rem;
   }
@@ -95,7 +95,7 @@
     font-size: 0.6rem;
     font-weight: bold;
   }
-  .coordinates {
+  .coordinatess {
     position: absolute;
     top: 32%;
     left: 41%;
