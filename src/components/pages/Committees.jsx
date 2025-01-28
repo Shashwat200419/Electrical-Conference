@@ -9,7 +9,7 @@ import FooterSection from "../FooterSection";
 export const Committees = () => {
   return (
     <div className="mainDiv">
-      <p className="Committees" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>Committees</h1></p>
+      <p className="committees" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>Committees</h1></p>
       <div className="cardMain">
       <h1 className="honda2">Organising Committee</h1>
       <div className="organising_names">

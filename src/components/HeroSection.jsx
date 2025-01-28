@@ -63,7 +63,7 @@ const HeroSection = () => {
             width={100}
           />
         </div>
-        <div className="headdiv"><h1 className='head'>PICS 2025</h1></div>
+        <div className="headdiv"><h1 className='head'>PICS-2025</h1></div>
         <div className="subheaddiv"><h3 className='sub-head'>1st International Conference on Power and Intelligent Control System</h3></div>
         <div className="datediv"><p className='date'>July 04 - 05, 2025</p></div>
         <div className="departmentdiv"><p className='department'>Department of Electrical Engineering</p></div>

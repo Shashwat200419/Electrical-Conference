@@ -8,19 +8,19 @@ const DateSection = () => {
       <div className='dateboxes'>
         <div className='datebox'>
             <p className='dateptwo'>Last Date of Paper Submission :</p>
-            <p className='datepone'>01 April, 2025</p>
+            <p className='datepone'>31 March, 2025</p>
         </div>
         <div className='datebox'>
             <p className='dateptwo'>Acceptance Notification : </p>
-            <p className='datepone'>07 May, 2025</p>
+            <p className='datepone'>15 May, 2025</p>
         </div>
         <div className='datebox'>
             <p className='dateptwo'>Camera Ready Paper Submission : </p>
-            <p className='datepone'>13 June, 2025</p>
+            <p className='datepone'>05 June, 2025</p>
         </div>
         <div className='datebox'>
             <p className='dateptwo'>Last Date of Registration : </p>
-            <p className='datepone'>01 July, 2025</p>
+            <p className='datepone'>15 July, 2025</p>
         </div>
       </div>
     </div>

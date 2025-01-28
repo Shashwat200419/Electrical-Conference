@@ -8,6 +8,7 @@ export const SessionInfo = () => {
   return (
     <div className="mainDiv">
       <p className="SessionInfo" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>Session Information</h1></p>
+      <h3 className="updateing">Updating soon...</h3>
       <FooterSection/>
     </div>
   )

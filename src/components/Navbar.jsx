@@ -41,7 +41,7 @@ export const Navbar = () => {
         </a>
       </div>
       <Link to="/" className="title">
-           PICS 2025
+           PICS-2025
       </Link>
       </div>    
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
