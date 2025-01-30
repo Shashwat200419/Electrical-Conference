@@ -20,7 +20,11 @@ const DateSection = () => {
         </div>
         <div className='datebox'>
             <p className='dateptwo'>Last Date of Registration : </p>
-            <p className='datepone'>15 July, 2025</p>
+            <p className='datepone'>15 June, 2025</p>
+        </div>
+        <div className='datebox'>
+            <p className='dateptwo'>Date of Conference :</p>
+            <p className='datepone'>04-05 July, 2025</p>
         </div>
       </div>
     </div>
