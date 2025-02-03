@@ -59,6 +59,7 @@
 .book {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 4rem auto;
   width: 80%;
   gap: 2rem;
@@ -68,7 +69,8 @@
 }
 
 .pg1 {
-  width: 45%;
+  flex: 1;
+  min-width: 320px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,14 +102,16 @@
 }
 
 .pg2 {
-  width: 50%;
+  flex: 1;
+  min-width: 320px;
   border-radius: 10px;
   overflow: hidden;
 }
 
 .mapContainer1 {
   width: 100%;
-  height: 770.4px;
+  height: 60vh;
+  min-height: 300px;
   border-radius: 10px;
   box-shadow: 0px 4px 12px rgba(172, 173, 172, 0.7);
 }
@@ -119,15 +123,16 @@
   top: 2%;
   transform: translateX(-50%);
   font-family: "Barlow", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #0073e6;
+  white-space: nowrap;
 }
 
 .zoom-buttons1 {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -184,10 +189,17 @@
     width: 90%;
     gap: 1rem;
   }
+  .zoom-buttons1 {
+    flex-direction: row;
+    gap: 5px;
+    bottom: -820px;
+    right: 15px;
+  }
 
-  .pg1,
-  .pg2 {
-    width: 48%;
+  .zoom-buttons1 button {
+    width: 3.3rem;
+    height: 2rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -214,7 +226,23 @@
   }
 
   .mapContainer1 {
-    height: 400px;
+    height: 50vh;
+  }
+
+  .coordinates1 {
+    font-size: 0.9rem;
+  }
+  .zoom-buttons1 {
+    flex-direction: row;
+    gap: 5px;
+    bottom: -820px;
+    right: 15px;
+  }
+
+  .zoom-buttons1 button {
+    width: 3.3rem;
+    height: 2rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -232,7 +260,6 @@
   .book {
     width: 95%;
     gap: 1.2rem;
-    padding: 0.5rem;
   }
 
   .pg1,
@@ -241,24 +268,24 @@
   }
 
   .mapContainer1 {
-    height: 300px;
+    height: 40vh;
   }
+
   .zoom-buttons1 {
-    position: absolute;
-    bottom: -68%;
-    right: 20px;
-    display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
+    bottom: -670px;
+    right: 15px;
   }
 
   .zoom-buttons1 button {
-    width: 3.5rem;
-    height: 1.6rem;
+    width: 3.3rem;
+    height: 2rem;
     font-size: 0.7rem;
   }
 
   .coordinates1 {
     font-size: 0.8rem;
+    top: 5px;
   }
 }
