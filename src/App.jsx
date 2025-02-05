@@ -7,6 +7,7 @@ import HeroSection from "./components/HeroSection";
 import DateSection from "./components/DateSection";
 import FooterSection from "./components/FooterSection";
 import PDFViewer from "./components/PDFviewer";
+import { Registration } from "./components/pages/Registration";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/ConferenceOverview" element={<ConferenceOverview />} />
         <Route path="/Keynote" element={<KeynoteSpeakers />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Registration" element={<Registration />} />
       </Routes>
       {/* <HeroSection/> */}
       {/* <DateSection/> */}

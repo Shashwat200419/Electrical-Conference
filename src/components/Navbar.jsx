@@ -88,8 +88,9 @@ export const Navbar = () => {
           </div>
         </li>
         <li>
-          <a to="/" href="/mmm">Registration
-          </a>
+          {/* <a to="/" href="/mmm">Registration
+          </a> */}
+          <NavLink to="/Registration">Registration</NavLink>
         </li>
         {/* <li>
           <div className="nav-item">

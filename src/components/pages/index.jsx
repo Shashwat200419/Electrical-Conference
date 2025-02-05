@@ -19,3 +19,4 @@ export * from "./ImpDates";
 export * from "./ConferenceOverview";
 export * from "./KeynoteSpeakers";
 export * from "./Contact";
+export * from "./Registration";
