@@ -32,6 +32,9 @@ span {
 .footerright {
   width: 46%;
 }
+.footerright p a {
+  color: #1155cc;
+}
 
 @media (max-width: 768px) {
   .footer {

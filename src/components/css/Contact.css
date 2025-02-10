@@ -97,12 +97,13 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 6.3rem;
 }
 
 .contact_info h2 {
-  font-weight: 700;
+  font-weight: 500;
   margin: 2rem 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: gray;
   font-family: "Barlow", sans-serif;
 }

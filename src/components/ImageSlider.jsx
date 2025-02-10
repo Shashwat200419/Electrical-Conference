@@ -14,7 +14,7 @@ const ImageSlider = () => {
     slidesToShow: 1,      // Number of slides to show at once
     slidesToScroll: 1,    // Number of slides to scroll per action
     autoplay: true,       // Auto-play the slides
-    autoplaySpeed: 1500   // Auto-play interval in ms
+    autoplaySpeed: 1000   // Auto-play interval in ms
   };
 
   // Images to be displayed in the slider

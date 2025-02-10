@@ -1,13 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components/Navbar";
-import {Committees,Home, Papers, History, Author, FacultyMeet, StudentInfo, AboutNITH, Accommodations, ReachNITH, ConferenceVenue, ImpDates, ConferenceOverview, SessionInfo, KeynoteSpeakers, Contact } from "./components/pages";
+import {Committees,Home, Papers, History, Author, FacultyMeet, StudentInfo, AboutNITH, Accommodations, ReachNITH, ConferenceVenue, ImpDates, ConferenceOverview, SessionInfo, KeynoteSpeakers, Contact, AdvisoryCommittee} from "./components/pages";
 import ImageSlider from "./components/ImageSlider";
 import HeroSection from "./components/HeroSection";
 import DateSection from "./components/DateSection";
 import FooterSection from "./components/FooterSection";
 import PDFViewer from "./components/PDFviewer";
 import { Registration } from "./components/pages/Registration";
+import { Sponsorship } from "./components/pages/Sponsorship";
+import { SubmitPaper } from "./components/pages/SubmitPaper";
 
 function App() {
   return (
@@ -32,10 +34,13 @@ function App() {
         <Route path="/Keynote" element={<KeynoteSpeakers />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Registration" element={<Registration />} />
-      </Routes>
+        <Route path="/AdvisoryCommittee" element={<AdvisoryCommittee/>} />
+        <Route path="/Sponsorship" element={<Sponsorship/>} />
+        <Route path="/SubmitPaper" element={<SubmitPaper/>} />
       {/* <HeroSection/> */}
       {/* <DateSection/> */}
       {/* <FooterSection/> */}
+      </Routes>
     </div>
   );
 }

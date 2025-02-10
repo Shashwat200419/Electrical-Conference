@@ -12,7 +12,10 @@ const FooterSection = () => {
         </div>
         <div className='footerright'>
             <p className='footerrightp'>© Copyright 2025 NITHamirpur - All rights reserved. Use of this website signifies your agreement to our Terms and Conditions. <br />
-            <br /> NIT Hamirpur is a premier institute dedicated to fostering innovation and excellence in technical education and research.
+            <br />The <a href="https://cmt3.research.microsoft.com">Microsoft CMT service</a> was used for
+managing the peer-reviewing process for this conference. This service was provided for free
+by Microsoft and they bore all expenses, including costs for Azure cloud services as well as
+for software development and support.
 
 </p>
         </div>

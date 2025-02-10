@@ -92,13 +92,23 @@
   font-size: 1.6rem;
   font-family: "Barlow", sans-serif;
   margin-top: 3rem;
+  color: #222222;
+  font-weight: 600;
+}
+.Register_data span span {
+  font-size: 1.6rem;
+  font-family: "Barlow", sans-serif;
+  /* margin-top: 3rem; */
+  color: #1155cc;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 .Register_data p {
   font-size: 1.6rem;
   font-family: "Barlow", sans-serif;
   margin-top: 3rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .table-container {

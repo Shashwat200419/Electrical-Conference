@@ -20,3 +20,5 @@ export * from "./ConferenceOverview";
 export * from "./KeynoteSpeakers";
 export * from "./Contact";
 export * from "./Registration";
+export * from "./AdvisoryCommittee";
+export * from "./Sponsorship";

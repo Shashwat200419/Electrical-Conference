@@ -8,7 +8,7 @@ export const ConferenceVenue = () => {
   return (
     <div className="mainDiv">
       <p className="ConferenceVenue" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>Conference Venue</h1></p>
-      <div className="dataHeader">
+      <div className="dataHeader3">
         <p className="Venue">Department of Electrical Engineering, NIT Hamirpur-177005</p>
         <img src="https://5.imimg.com/data5/DM/AO/GLADMIN-15801981/electrical-engineering-department-500x500.jpg" alt="EE_department" className="imgimg" />
         <p className="Department_Info">The Department of Electrical Engineering, established in the year 1986, is one of the oldest Departments of National Institute of Technology Hamirpur. 

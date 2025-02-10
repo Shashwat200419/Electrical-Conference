@@ -8,17 +8,17 @@ import FooterSection from "../FooterSection";
 export const Author = () => {
   return (
     <div className="mainDiv">
-      <p className="author" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>Author Instructions</h1></p>
+      <p className="author" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>Instructions for Preparing Manuscripts    </h1></p>
       <div className="data">
         <div className="data1">
         <h3>Instructions:</h3>
         <p>The authors should submit papers in one of the following tracks:</p>
         <ul>
-          <li>AI/ML in Healthcare & Agriculture.</li>
-          <li>Mathematical Foundations of ML/ Optimization.</li>
-          <li>NLP/ Speech & Signal Processing.</li>
-          <li>Generative AI/ Computer Vision.</li>
-          <li>Edge AI/ Applications of AI in hardware.</li>
+          <li>Power Engineering</li>
+          <li>Control and Automation</li>
+          <li>Artificial Intelligence (AI)</li>
+          {/* <li>Generative AI/ Computer Vision.</li> */}
+          {/* <li>Edge AI/ Applications of AI in hardware.</li> */}
         </ul>
         <p>Papers in research areas not falling in the above tracks, but relevant to the conference scope shall submit their paper in General Track. </p>
         </div>
@@ -30,6 +30,11 @@ export const Author = () => {
             <li><a href="https://www.overleaf.com/latex/templates/springer-conference-proceedings-template-updated-2022-01-12/wcvbtmwtykqj">LaTeX template</a></li>
             {/* <li><a href="">Response Sheet template</a></li> */}
           </ul>
+        </div>
+        <div className="data3">
+          <h3>Publication</h3>
+          <span>All accepted papers will be published in Springer Book Series. (Scopus Indexed)</span>
+          <span>Extended versions of select papers will be invited for submission in various journals. </span>
         </div>
       </div>
       <FooterSection/>

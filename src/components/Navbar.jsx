@@ -62,16 +62,30 @@ export const Navbar = () => {
             <div className="dropdown">
               <NavLink className="dropdown-btn" to="/ImpDates">Important Dates</NavLink>
               {/* <NavLink className="dropdown-btn" to="/Committees">Committees</NavLink> */}
-              <NavLink className="dropdown-btn" to="/author">Author Information</NavLink>
-              <a className="dropdown-btn" to="/Papers" href="/mm">Paper Submission Link</a>
+              {/* <NavLink className="dropdown-btn" to="/author">Author Information</NavLink> */}
+              <NavLink className="dropdown-btn" to="/SubmitPaper">Submit Paper</NavLink>
               {/* <NavLink className="dropdown-btn" to="/Papers">Call for Papers</NavLink> */}
             </div>
           )}
           </div>
         </li>
         <li>
-          <NavLink to="/committees">Committee</NavLink>
+          {/* <NavLink to="/committees">Committee</NavLink> */}
+          <div className="nav-item">
+            <a to="/program" className="dropdown-toggle" onMouseEnter={toggleDropdown2} onClick={toggleDropdown2}>Committee
+            <span className={`arrow ${isOpen2 ? 'open' : ''}`}>&#9662;</span>
+            </a>
+            {isOpen2 && (
+              <div className="dropdown">   
+              <NavLink className="dropdown-btn" to="/committees">Organizing Committee</NavLink>
+              {/* <NavLink className="dropdown-btn" to="/Author">Author Information</NavLink> */}
+              <NavLink className="dropdown-btn" to="/AdvisoryCommittee">Advisory & Technical Committee</NavLink>
+              {/* <NavLink className="dropdown-btn" to="/Keynote">Keynote Speakers</NavLink> */}
+            </div>
+            )}
+          </div>
         </li>
+        <li><NavLink to="/author">Author</NavLink></li>
         <li>
           <div className="nav-item">
             <a to="/program" className="dropdown-toggle" onMouseEnter={toggleDropdown2} onClick={toggleDropdown2}>Program
@@ -120,10 +134,13 @@ export const Navbar = () => {
             )}
           </div>
         </li>
-        <li>
+        {/* <li>
           <a href={pdf}>Call for Sponsors
           <span style={{ color: 'black' }}>&#128279;</span>
           </a>
+        </li> */}
+        <li>
+          <NavLink to="/Sponsorship">Call for Sponsors</NavLink>
         </li>
         <li>
           <NavLink to="/Contact">Contact</NavLink>

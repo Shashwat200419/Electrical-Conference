@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Lexend:wght@100&display=swap");
 
-.author {
+.SubmitPaper {
+  position: relative;
   background-color: #02273d;
   font-size: 4rem;
   color: #d7d7f3;
@@ -12,10 +13,9 @@
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   text-align: center;
-  position: relative;
 }
 
-.author::before {
+.SubmitPaper::before {
   content: "";
   position: absolute;
   top: 0;
@@ -26,21 +26,22 @@
   z-index: 1;
 }
 
-.author h1 {
+.SubmitPaper h1 {
   position: relative;
-  left: 21%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #e8eaea;
   z-index: 2;
-  font-size: 3rem;
-  width: 54%;
+  font-size: 3.5rem;
+  width: fit-content;
   padding-bottom: 0.4rem;
   font-family: "Barlow", sans-serif;
+  left: -3%;
 }
 
-.author h1::after {
+.SubmitPaper h1::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -53,6 +54,13 @@
   animation: expandBorderBothWays 1s ease forwards;
 }
 
+.SubmitPaper h1:hover::after {
+  width: 100%;
+  left: 0;
+  animation: expandBorderOnHover 1s ease forwards;
+}
+
+/* Animations */
 @keyframes expandBorderBothWays {
   from {
     width: 0;
@@ -62,12 +70,6 @@
     width: 100%;
     left: 0;
   }
-}
-
-.author h1:hover::after {
-  width: 100%;
-  left: 0;
-  animation: expandBorderOnHover 1s ease forwards;
 }
 
 @keyframes expandBorderOnHover {
@@ -81,120 +83,121 @@
   }
 }
 
-.data {
+.PaperSubmitData {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  width: 60%;
+  align-items: center;
+  width: 75%;
   margin: 0 auto;
-  font-size: 1.3rem;
-  gap: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  gap: 7rem;
 }
 
-.data1,
-.data2,
-.data3 {
+.SubmitLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+}
+
+.SubmitLink p span {
+  color: #222222;
+}
+
+.SubmitLink p span.linkupdate {
+  color: #1155cc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.SubmitLink p.downlink {
+  font-size: 1.1rem;
+}
+
+.Description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  gap: 1rem;
 }
 
-.data1 h3,
-.data2 h3,
-.data3 h3 {
+.Description span {
+  font-weight: bold;
   font-family: "Barlow", sans-serif;
-  font-size: 2rem;
-  font-weight: 500;
-  color: black;
-}
-
-.data1 p,
-.data2 p,
-.data1 ul li,
-.data2 ul li,
-.data3 span {
-  font-family: "Barlow", sans-serif;
-  font-weight: 400;
-  /* color: #1d6e94; */
   color: #222222;
-  font-size: 1.2rem;
 }
 
+.Description .para1,
+.Description .para2,
+.Description .para3 {
+  font-size: 1rem;
+  font-family: "Barlow", sans-serif;
+  color: #222222;
+  margin-top: 1rem;
+}
+
+/* Responsive Design */
 @media (max-width: 1024px) {
-  .author {
-    font-size: 3.5rem;
-    padding-left: 4rem;
-  }
-
-  .author h1 {
+  .SubmitPaper {
     font-size: 3rem;
-    width: 40%;
-    left: 30%;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
-
-  .data {
+  .SubmitPaper h1 {
+    font-size: 2.5rem;
+  }
+  .PaperSubmitData {
+    width: 90%;
+    gap: 5rem;
+  }
+  .SubmitLink {
     font-size: 1.2rem;
-  }
-
-  .data1 h3,
-  .data2 h3,
-  .data3 h3 {
-    font-size: 1.8rem;
+    gap: 2rem;
   }
 }
 
 @media (max-width: 768px) {
-  .author {
-    font-size: 3rem;
+  .SubmitPaper {
+    font-size: 2.5rem;
     padding-left: 2rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
-
-  .author h1 {
-    font-size: 2.8rem;
-    width: 50%;
-    left: 25%;
+  .SubmitPaper h1 {
+    font-size: 2rem;
   }
-
-  .data {
-    font-size: 1.1rem;
+  .PaperSubmitData {
+    width: 100%;
+    gap: 4rem;
   }
-
-  .data1 h3,
-  .data2 h3 {
-    font-size: 1.6rem;
+  .SubmitLink {
+    font-size: 1rem;
+    gap: 1.5rem;
   }
 }
 
 @media (max-width: 480px) {
-  .author {
-    font-size: 2.5rem;
+  .SubmitPaper {
+    font-size: 2rem;
     padding-left: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
-
-  .author h1 {
-    font-size: 1.7rem;
-    width: 88%;
-    left: 8%;
+  .SubmitPaper h1 {
+    font-size: 2rem;
+    left: 3%;
   }
-
-  .data {
+  .PaperSubmitData {
+    width: 85%;
+    gap: 3rem;
     font-size: 1rem;
-    margin: 3rem;
-    gap: 2rem;
-    width: 80%;
   }
-
-  .data1 h3,
-  .data2 h3 {
-    font-size: 1.4rem;
+  .SubmitLink {
+    font-size: 0.9rem;
+    gap: 1rem;
   }
 }

@@ -27,7 +27,7 @@ export const Contact = () => {
       />
       </div> */}
       <div className="contact_info">
-        <h2>For any question, Contact us :</h2>
+        <h2>For any query, Contact us :</h2>
         <span>Dr. Ram Niwash Mahia (Email: ram@nith.ac.in, Phone: 7976332739),</span>
         <span>Dr. Katam Nishanth (Email: katam@nith.ac.in, Phone:9441843624),</span>
         <span className="last_span">Dr. Pankaj K. Mishra (Email: pmishra@nith.ac.in, Phone:9101514943)</span>
