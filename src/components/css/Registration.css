@@ -166,6 +166,15 @@
   color: #222222;
   margin: 1rem;
 }
+.instruction ul div {
+  display: flex;
+  flex-direction: column;
+}
+.instruction ul div span {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #222222;
+}
 
 @media (max-width: 480px) {
   .Registration {
@@ -197,5 +206,12 @@
     height: 22%;
     background-color: rgba(0, 0, 0, 0.45);
     z-index: 1;
+  }
+  .instruction {
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+  .instruction h4 {
+    font-size: 1.5rem;
   }
 }
