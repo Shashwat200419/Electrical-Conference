@@ -21,7 +21,7 @@ export const SubmitPaper = () => {
         <div className="Description">
             <span>Paper Format and Length</span>
             <p className="para1">Springer format with maximum 10 pages (including references) during paper submission. To take care of reviewers' comments, one more page is allowed (without any charge) during revised/camera ready submission. Moreover, authors may purchase up to 2 extra pages. Extra page charges must be paid at the time of registration.</p>
-            <p className="para2">Springer paper formatting instructions and templates for ICAMS-2025 are available here DOC and Latex .</p>
+            <p className="para2">Springer paper formatting instructions and templates for PICS-2025 are available here DOC and Latex .</p>
             <p className="para3">Please submit your paper here: <a href="https://cmt3.research.microsoft.com">Microsoft CMT </a></p>
         </div>
       </div>

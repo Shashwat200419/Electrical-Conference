@@ -149,6 +149,23 @@
   transition: 0.3s;
   font-family: "Barlow", sans-serif;
 }
+.instruction {
+  margin-top: 4rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.instruction h4 {
+  font-size: 1.5rem;
+  font-family: "Barlow", sans-serif;
+  color: #222222;
+}
+.instruction ul li {
+  font-size: 1rem;
+  font-family: "Barlow", sans-serif;
+  color: #222222;
+  margin: 1rem;
+}
 
 @media (max-width: 480px) {
   .Registration {
