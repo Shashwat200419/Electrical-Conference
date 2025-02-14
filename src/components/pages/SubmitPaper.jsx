@@ -12,7 +12,7 @@ export const SubmitPaper = () => {
       <div className="PaperSubmitData">
         <div className="SubmitLink">
             <p className="link">
-                <span>The link for the papers submission is  : <span className="linkupdate">Available soon...</span></span>
+                <span>The link for the papers submission is  : <a href="https://cmt3.research.microsoft.com/PICS2025">https://cmt3.research.microsoft.com/PICS2025</a> </span>
             </p>
             <p className="downlink">
                 <span>Download the <a href={Brochure} className="linkupdate">CALL FOR PAPERS</a></span>

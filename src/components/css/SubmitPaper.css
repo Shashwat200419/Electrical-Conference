@@ -105,6 +105,12 @@
 
 .SubmitLink p span {
   color: #222222;
+  font-size: 1.2rem;
+}
+.SubmitLink p span a {
+  font-size: 1.1rem;
+  color: #1155cc;
+  text-decoration: none;
 }
 
 .SubmitLink p span.linkupdate {
@@ -114,7 +120,7 @@
 }
 
 .SubmitLink p.downlink {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .Description {
@@ -199,5 +205,20 @@
   .SubmitLink {
     font-size: 0.9rem;
     gap: 1rem;
+    width: 50%;
+  }
+  .SubmitLink p.link span {
+    font-size: 1rem;
+    margin-left: 3rem;
+  }
+  .SubmitLink p.link span a {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  .SubmitLink p.downlink {
+    width: 200%;
+    font-size: 1rem;
+    margin-left: 5rem;
+    font-size: 2rem;
   }
 }
