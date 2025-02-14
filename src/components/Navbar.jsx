@@ -86,8 +86,8 @@ export const Navbar = () => {
           </div>
         </li>
         <li><NavLink to="/author">Author</NavLink></li>
-        <li>
-          <div className="nav-item">
+        <li><NavLink to="/Keynote">Keynote Speakers</NavLink></li>
+        <li>          <div className="nav-item">
             <a to="/program" className="dropdown-toggle" onMouseEnter={toggleDropdown2} onClick={toggleDropdown2}>Program
             <span className={`arrow ${isOpen2 ? 'open' : ''}`}>&#9662;</span>
             </a>
@@ -96,7 +96,7 @@ export const Navbar = () => {
               <NavLink className="dropdown-btn" to="/ConferenceOverview">Conference Overview</NavLink>
               {/* <NavLink className="dropdown-btn" to="/Author">Author Information</NavLink> */}
               <NavLink className="dropdown-btn" to="/SessionInfo">Session Information</NavLink>
-              <NavLink className="dropdown-btn" to="/Keynote">Keynote Speakers</NavLink>
+              {/* <NavLink className="dropdown-btn" to="/Keynote">Keynote Speakers</NavLink> */}
             </div>
             )}
           </div>

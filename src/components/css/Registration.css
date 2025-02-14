@@ -150,7 +150,7 @@
   font-family: "Barlow", sans-serif;
 }
 .instruction {
-  margin-top: 4rem;
+  margin-top: 8rem;
   display: flex;
   gap: 1rem;
   flex-direction: column;
