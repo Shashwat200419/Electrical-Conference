@@ -295,7 +295,7 @@
   }
 
   .dataHeader {
-    /* margin-left: 0; */
+    margin-left: 0;
     padding: 0 2rem;
     align-items: flex-start;
     width: 100%;
@@ -303,7 +303,7 @@
 
   .Date,
   .Date2 {
-    width: 105%;
+    width: 100%;
     flex-direction: row;
     align-items: flex-start;
     font-size: 1.2rem;
