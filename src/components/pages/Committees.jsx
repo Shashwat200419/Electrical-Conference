@@ -15,12 +15,26 @@ export const Committees = () => {
       <div className="organising_names">
   <div className="name_box">
     <div className="hd">
+      <h3>Chief-Patron</h3>
+    </div>
+    <div className="names">
+      <span>Prof. H M Suryawanshi</span>
+      {/* <span>Chairman, BOG cum Director</span> */}
+      <span>Director, NIT Hamirpur (NITH)</span>
+      <span></span>
+    </div>
+  </div>
+  <hr className="divider" />
+
+  <div className="name_box">
+    <div className="hd">
       <h3>Patron</h3>
     </div>
     <div className="names">
-      <span>Prof. H M Suryavanshi</span>
-      <span>Chairman, BOG cum Director</span>
-      <span>NIT Hamirpur (NITH)</span>
+      <span>Prof. Anoop Kumar,</span>
+      <span>Dean(Faculty Welfare), NITH</span>
+      <span>Dr. Archna Santosh Nanoty</span>
+      <span>Registrar, NITH</span>
       <span></span>
     </div>
   </div>
@@ -33,6 +47,7 @@ export const Committees = () => {
     <div className="names">
       <span>Dr. Bharat Bhusan Sharma,</span>
       <span>HOD, EED, NITH</span>
+      <span>Dr. O.P.Rahi, EED, NITH</span>
       <span></span>
     </div>
   </div>
@@ -45,7 +60,7 @@ export const Committees = () => {
     <div className="names">
       <span>Dr. Ram Niwash Mahia</span>
       <span>Asst. Prof., EED, NITH</span>
-      <span></span>
+      {/* <span></span> */}
     </div>
   </div>
   <hr className="divider" />
@@ -57,8 +72,8 @@ export const Committees = () => {
     <div className="names">
       <span>Dr. Bharat Bhusan Sharma,</span>
       <span>HOD, EED, NITH</span>
-      <span>Dr. O. P. Rahi,</span>
-      <span>Assoc. Prof., EED, NITH</span>
+      {/* <span>Dr. O. P. Rahi,</span> */}
+      {/* <span>Assoc. Prof., EED, NITH</span> */}
     </div>
   </div>
   <hr className="divider" />
