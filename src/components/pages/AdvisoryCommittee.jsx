@@ -209,7 +209,7 @@ export const AdvisoryCommittee = () => {
 <div className="1">
 <h1 className="Honda">Advisory Committee</h1>
         <div className="advisory_names">
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", margin: "20px" }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", margin: "20px", fontFamily: "Barlow, sans-serif",}}>
       {/* <h1>Professors List</h1> */}
       <table style={{ width: "80%", borderCollapse: "collapse", fontFamily: "Arial, sans-serif" }}>
         <thead>

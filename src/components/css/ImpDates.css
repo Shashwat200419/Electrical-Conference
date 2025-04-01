@@ -187,7 +187,8 @@
 }
 
 .Date,
-.Date2 {
+.Date2,
+.Date3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -199,15 +200,24 @@
   font-size: 1.7rem;
 }
 
+/* .Date3 {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    text-decoration-color: red;
+  } */
+
 .Date span,
-.Date2 span {
+.Date2 span,
+.Date3 span {
   display: inline-block;
   text-align: left;
   flex: 1;
+  text-decoration: none;
 }
 
 .Date::before,
-.Date2::before {
+.Date2::before,
+.Date3::before {
   /* content: "•"; */
   margin-right: 10px;
 }

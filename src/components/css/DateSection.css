@@ -11,7 +11,7 @@
 
 .pone {
   margin-top: 50px;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 0px;
   font-family: "Barlow", sans-serif;
 }
@@ -55,6 +55,43 @@
   transform: scale(1.07);
 }
 
+/* Container for the scrolling text */
+.banner-container {
+  overflow: hidden;
+  background-color: #fee440;
+  padding: 8px 0;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+}
+
+/* Scrolling text effect */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  } /* Moves by half its width */
+}
+
+.marquee {
+  display: flex;
+  /* color: red; */
+  color: #ef233c;
+  font-size: 18px;
+  font-weight: bold;
+  gap: 30px; /* Adds space between duplicated text */
+  width: 200%;
+  animation: marquee 9s linear infinite;
+}
+
+/* Ensure the text spans the width properly */
+.marquee span {
+  flex-shrink: 0;
+  width: 50%;
+}
+
 @media (max-width: 768px) {
   .dateboxes {
     flex-direction: column;
@@ -84,4 +121,22 @@
   color: black;
   margin-top: 5px;
   font-family: "Barlow", sans-serif;
+}
+
+.datepone-updated {
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  text-decoration-color: red;
+  font-size: 21px;
+  font-weight: bold;
+  color: #002868;
+  font-family: "Barlow", sans-serif;
+  margin-top: 0.4rem;
+}
+.datepone-updated-date {
+  font-size: 21px;
+  font-weight: bold;
+  color: red;
+  font-family: "Barlow", sans-serif;
+  margin-top: 0.4rem;
 }

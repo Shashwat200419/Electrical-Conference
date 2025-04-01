@@ -1,22 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .AdvisoryCommittee {
   position: relative;
   background-color: black;
-  /* background-color: #02273d; */
-  /* background-color: #0e0e5c; */
-  font-size: 4rem;
-  /* color: #d7d7f3; */
+  font-size: clamp(2rem, 4vw, 4rem);
   width: 100%;
   padding: 2rem;
-  padding-left: 0rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+  text-align: center;
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   color: white;
-  text-align: center;
 }
 
 .AdvisoryCommittee::before {
@@ -29,6 +22,17 @@
   background-color: rgba(0, 0, 0, 0.45);
   z-index: 1;
 }
+
+/* .AdvisoryCommittee h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e8eaea;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  padding-bottom: 0.4rem;
+  z-index: 2;
+  font-family: "Barlow", sans-serif;
+} */
 
 .AdvisoryCommittee h1 {
   position: relative;
@@ -85,194 +89,74 @@
     left: 0;
   }
 }
+
 .cardMain1 {
   display: flex;
-  flex-direction: row;
-  gap: 10rem;
-  margin-left: 5rem;
-  margin-bottom: 3rem;
-}
-.Card1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 95%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto;
   padding: 2rem;
-  padding-bottom: 1rem;
-  margin: auto;
-  /* flex-wrap: wrap; */
-}
-
-.Honda {
-  /* margin-left: -68rem; */
-  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
-  font-family: "Barlow", sans-serif;
-  text-align: center;
-  margin-top: 2rem;
-  font-size: 2.2rem;
-  border: 1px solid #650f13;
-  border-radius: 2rem;
+  width: 90%;
 }
 
 .advisory_names {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin-top: 2rem;
-  gap: 1rem;
-  font-size: 1.2rem;
+  text-align: center;
+  font-size: clamp(1rem, 2vw, 1.2rem);
   color: #0e0e5c;
 }
 
-.Card2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 95%;
-  padding: 2rem;
-  padding-bottom: 1rem;
-  margin: auto;
-}
-
-.honda2 {
-  /* margin-left: -68rem; */
-  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+.Honda {
   font-family: "Barlow", sans-serif;
   text-align: center;
-  margin-top: 3rem;
-  font-size: 2rem;
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
   border: 1px solid #650f13;
   border-radius: 2rem;
+  padding: 0.5rem 1rem;
 }
 
-.organising_names {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-  gap: 0.8rem;
-  color: #0e0e5c;
+/* Table Responsiveness */
+table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  overflow-x: auto;
 }
 
-.organising_names .name_box {
-  display: flex;
-  gap: 30rem;
-  font-size: 1.2rem;
-  text-align: start;
-}
-.organising_names .name_box .hd {
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  width: 45%;
-}
-.organising_names .name_box .names {
-  display: flex;
-  width: 55%;
-  justify-content: center;
-  align-items: center;
-}
-.organising_names .name_box .names span {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+table th,
+table td {
+  border: 1px solid black;
+  padding: 0.8rem;
+  text-align: left;
 }
 
-.names {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-@media (max-width: 480px) {
-  .Card1 {
-    display: flex;
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .cardMain1 {
     flex-direction: column;
+    align-items: center;
   }
+
   .AdvisoryCommittee {
-    font-size: 2.5rem;
-    padding-left: 1rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    height: 10rem;
+    font-size: 2rem;
+    padding: 1rem;
   }
-  .AdvisoryCommittee::before {
-    height: 10rem;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-  }
+
   .AdvisoryCommittee h1 {
-    position: relative;
-    left: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #e8eaea;
-    z-index: 2;
-    font-size: 3rem;
-    /* color: #ebedef; */
-    width: 75%;
-    padding-bottom: 0.4rem;
-    font-family: "Barlow", sans-serif;
-  }
-  .organising_names {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    gap: 0.4rem;
-    color: #0e0e5c;
+    font-size: 2.5rem;
   }
 
-  .organising_names .name_box {
-    display: flex;
-    gap: 0.8rem;
-    font-size: 0.8rem;
-    text-align: start;
-  }
-  .organising_names .name_box .hd {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 45%;
-    text-align: center;
-  }
-  .organising_names .name_box .names {
-    display: flex;
-    width: 46%;
-    justify-content: center;
-    align-items: center;
-  }
-  .organising_names .name_box .names span {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .names {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
   .advisory_names {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    gap: 1rem;
-    font-size: 1.2rem;
-    color: #0e0e5c;
-    text-align: center;
+    font-size: 1rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 }
