@@ -9,7 +9,7 @@ export const ConferenceOverview = () => {
     <div className="mainDiv">
       <p className="ConferenceOverview" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>Conference Overview</h1></p>
       <div className="info">
-      <p>The conference covers diverse research areas, including but not limited to the following:</p>
+      <p>The conference covers diverse research area, including but not limited to the following:</p>
       <div className="information1">
         <h3>Track 1 : Power Engineering</h3>
         <ul>

@@ -4,7 +4,8 @@ import "../components/css/FooterSection.css"
 const FooterSection = () => {
   return (
 
-      <div className='footer'>
+      <div className='fm'>
+        <div className='footer'>
         <div className='footerleft'>
             {/* <p className='footerleftpone'>This site is created, maintained, and managed by <span>Conference Catalysts,<br/>  LLC</span> .</p> */}
             <p className='footerleftpone'>This site is created, maintained, and managed by the Organizing Committee of PICS-2025, Department of Electrical Engineering, National Instituteof Technology Hamirpur.</p>
@@ -19,6 +20,14 @@ for software development and support.
 
 </p>
         </div>
+      </div>
+      <div className="mentions">
+        <h2>Website designed and maintained by : </h2>
+        <div className="namesm">
+          <a href="">Shashwat Tiwari <span>🔗</span></a>
+          <a href="https://www.linkedin.com/in/sahil-sharma-380ba1248">Sahil Sharma <span>🔗</span></a>
+        </div>
+      </div>
       </div>
   )
 }
