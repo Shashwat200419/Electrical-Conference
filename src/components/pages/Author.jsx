@@ -33,7 +33,7 @@ export const Author = () => {
         </div>
         <div className="data3">
           <h3>Publication</h3>
-          <span>All accepted papers will be published in Springer Book “Lecture Notes in Electrical Engineering” series <a href="https://www.springer.com/series/7818">https://www.springer.com/series/7818</a>. (Scopus Indexed)</span>
+          <span>All accepted and presented papers will be published in Springer Book “Lecture Notes in Electrical Engineering” series <a href="https://www.springer.com/series/7818">https://www.springer.com/series/7818</a>. (Scopus Indexed)</span>
           <span>Extended versions of select papers will be invited for submission in various journals. </span>
         </div>
       </div>

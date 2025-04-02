@@ -5,6 +5,7 @@ import logo from "../assets/logo3.png";
 import nlogo from "../assets/nlogo.png";
 import nlogoblue from "../assets/PICSLOGO.png";
 import springerLogo from "../assets/springer-logo.jpeg";
+import picsSpringerLogo from "../assets/pics-springer-logo.jpeg";
 import d from "../assets/d.png";
 import b from "../assets/b.png";
 import a from "../assets/a.png";
@@ -55,7 +56,7 @@ const HeroSection = () => {
       <div className="right-container">
         <div className="logo">
         <img
-            src={nlogoblue}
+            src={picsSpringerLogo}
             // src="https://confcats-siteplex.s3.us-east-1.amazonaws.com/cdc25/large_Logo_CDC_2025_3e6db1dc79.png"
             alt="PICS Logo"
             className="logo-image"
@@ -81,14 +82,14 @@ const HeroSection = () => {
           these checks will be published. Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) 
           are not considered for publication.</div>
         <div className="logo">
-        <img
+        {/* <img
             src={springerLogo}
             // src="https://static.canva.com/web/images/8439b51bb7a19f6e65ce1064bc37c197.svg"
             alt="PICS Logo"
             className="logo-image-springer"
             height={100}
             width={100}
-          />
+          /> */}
         </div>
         </div>
       </div>

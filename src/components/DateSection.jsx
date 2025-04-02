@@ -6,11 +6,11 @@ const DateSection = () => {
       <div className="banner-container">
       <div className="marquee">
         <span>
-          Important Update: The last date for paper submission to PICS-2025 has been extended to 15 April 2025. 
+          Important Update: The last date for paper submission to PICS-2025 has been extended to 21 April 2025. 
           Authors are encouraged to submit their papers before the new deadline. &nbsp; 🔔 
         </span>
         <span>
-          Important Update: The last date for paper submission to PICS-2025 has been extended to 15 April 2025. 
+          Important Update: The last date for paper submission to PICS-2025 has been extended to 21 April 2025. 
           Authors are encouraged to submit their papers before the new deadline. &nbsp; 🔔 
         </span>
       </div>
