@@ -217,6 +217,10 @@
 }
 .datesec .dpe s {
   text-decoration-color: red;
+  color: #650f13;
+}
+.datesec:nth-child(1) .dpe {
+  color: red;
 }
 
 .Date,
