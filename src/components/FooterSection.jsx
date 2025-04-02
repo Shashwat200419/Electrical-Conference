@@ -24,7 +24,7 @@ for software development and support.
       <div className="mentions">
         <h2>Website designed and maintained by : </h2>
         <div className="namesm">
-          <a href="">Shashwat Tiwari <span>🔗</span></a>
+          <a href="https://www.linkedin.com/in/shashwat-tiwari-2307b52a3">Shashwat Tiwari <span>🔗</span></a>
           <a href="https://www.linkedin.com/in/sahil-sharma-380ba1248">Sahil Sharma <span>🔗</span></a>
         </div>
       </div>

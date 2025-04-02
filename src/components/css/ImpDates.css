@@ -179,45 +179,69 @@
 .dataHeader {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   margin-top: 4.5rem;
-  position: relative;
-  gap: 1.5rem;
+  /* position: relative; */
+  gap: 1.3rem;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 20px;
+}
+
+.datesec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.datesec .dps {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 60%;
+  color: black;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.datesec .dpe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  color: #650f13;
+  font-weight: bold;
+  font-size: 1.7rem;
+  font-family: "Barlow", sans-serif;
+}
+.datesec .dpe s {
+  text-decoration-color: red;
 }
 
 .Date,
-.Date2,
-.Date3 {
+.Date2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: "Barlow", sans-serif;
-  width: 35%;
+  width: 45%;
   position: relative;
   color: #650f13;
   font-weight: bold;
   font-size: 1.7rem;
 }
 
-/* .Date3 {
-    text-decoration: line-through;
-    text-decoration-thickness: 3px;
-    text-decoration-color: red;
-  } */
-
 .Date span,
-.Date2 span,
-.Date3 span {
+.Date2 span {
   display: inline-block;
   text-align: left;
   flex: 1;
-  text-decoration: none;
+  width: 0px;
 }
 
 .Date::before,
-.Date2::before,
-.Date3::before {
+.Date2::before {
   /* content: "•"; */
   margin-right: 10px;
 }

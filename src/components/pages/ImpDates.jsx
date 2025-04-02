@@ -9,11 +9,26 @@ export const ImpDates = () => {
     <div className="mainDiv">
       <p className="ImpDates" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>Important Dates</h1></p>
       <div className="dataHeader">
-        <p className="Date">&#8226; <span className="span">Full Paper Submission Deadline :</span>  <s>31 March, 2025</s> &nbsp;&nbsp; &nbsp;&nbsp;<span>21 April, 2025(extended)</span></p>
-        <p className="Date">&#8226; <span className="span">Notification of Acceptance :</span>  May 15, 2025</p>
-        <p className="Date">&#8226; <span className="span">Camera-Ready Paper Submission :</span>  June 05, 2025</p>
-        <p className="Date">&#8226; <span className="span">Last date for Registration :</span>  June 15, 2025</p>
-        <p className="Date2">&#8226; <span className="span">Date of Conference :</span>  July 4-5, 2025</p>
+        <div className="datesec">
+          <p className="dps">Full Paper Submission Deadline : </p>
+          <p className="dpe">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>31 March, 2025</s>&nbsp;&nbsp;&nbsp;21 April, 2025&nbsp;&nbsp;(extended)</p>
+        </div>
+        <div className="datesec">
+          <p className="dps">Notification of Acceptance : </p>
+          <p className="dpe">May 15, 2025</p>
+        </div>
+        <div className="datesec">
+          <p className="dps">Camera-Ready Paper Submission : </p>
+          <p className="dpe">June 05, 2025</p>
+        </div>
+        <div className="datesec">
+          <p className="dps">Last date for Registration :</p>
+          <p className="dpe">June 05, 2025</p>
+        </div>
+        <div className="datesec">
+          <p className="dps">Date of Conference :</p>
+          <p className="dpe">July 4-5, 2025</p>
+        </div>
       </div>
       <FooterSection/>
     </div>
