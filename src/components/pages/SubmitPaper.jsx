@@ -3,7 +3,7 @@ import React from "react";
 import "../css/SubmitPaper.css";
 import backgroundImage from "../../assets/background.jpg.jpeg";
 import FooterSection from "../FooterSection";
-import Brochure from "../../assets/Brochure.pdf";
+import Brochure from "../../assets/Brochure PICS.pdf";
 
 export const SubmitPaper = () => {
   return (
