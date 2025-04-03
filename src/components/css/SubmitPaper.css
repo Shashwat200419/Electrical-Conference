@@ -191,10 +191,10 @@
     align-items: center;
   }
   .SubmitLink p.downlink {
-    width: 200%;
+    width: 100%;
     font-size: 1rem;
-    margin-left: 5rem;
-    margin-right: -30rem;
+    /* margin-left: 5rem; */
+    /* margin-right: -30rem; */
     font-size: 2rem;
   }
 }
@@ -211,27 +211,34 @@
     left: 3%;
   }
   .PaperSubmitData {
-    width: 85%;
-    gap: 3rem;
+    width: 90%;
+    gap: 1rem;
     font-size: 1rem;
   }
   .SubmitLink {
     font-size: 0.9rem;
-    gap: 1rem;
-    width: 50%;
+    /* gap: 1rem; */
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
   }
   .SubmitLink p.link span {
-    font-size: 1rem;
-    margin-left: 3rem;
+    font-size: 0.9rem;
+    /* margin-left: 3rem; */
   }
   .SubmitLink p.link span a {
-    font-size: 1rem;
-    margin: 0 auto;
+    font-size: 0.9rem;
+    /* margin: 0 auto; */
   }
-  .SubmitLink p.downlink {
-    width: 200%;
+  .SubmitLink p.downlink span {
+    width: 100%;
     font-size: 1rem;
-    margin-left: 5rem;
-    font-size: 2rem;
+    /* margin-left: -34rem; */
+    text-align: center;
+  }
+  .SubmitLink p.downlink span a {
+    width: 100%;
+    font-size: 1rem;
   }
 }

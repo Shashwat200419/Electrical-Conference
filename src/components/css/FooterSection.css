@@ -127,7 +127,7 @@ span {
     color: white;
     font-size: 20px;
     font-weight: 200;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "Barlow", sans-serif;
   }
   .namesm {
     margin-top: 10px;
@@ -136,5 +136,35 @@ span {
     flex-direction: column;
     align-items: start;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .mentions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid white;
+    padding-top: 0.7rem;
+  }
+  .mentions h2 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Barlow", sans-serif;
+  }
+  .mentions div {
+    display: flex;
+    /* gap: 1rem; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .mentions div h3 {
+    font-size: 0.9rem;
+  }
+  .mentions div a.social-icon {
+    width: 10px;
+    margin: 0.2rem;
   }
 }

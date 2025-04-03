@@ -334,9 +334,21 @@
 
   .dataHeader {
     margin-left: 0;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 80%;
+  }
+  .datesec .dps {
+    font-size: 0.8rem;
     width: 100%;
+  }
+  .datesec .dpe {
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
   }
 
   .Date,
