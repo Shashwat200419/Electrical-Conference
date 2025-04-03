@@ -23,9 +23,27 @@ for software development and support.
       </div>
       <div className="mentions">
         <h2>Website designed and maintained by : </h2>
-        <div className="namesm">
-          <a href="https://www.linkedin.com/in/shashwat-tiwari-2307b52a3">Shashwat Tiwari <span>🔗</span></a>
-          <a href="https://www.linkedin.com/in/sahil-sharma-380ba1248">Sahil Sharma <span>🔗</span></a>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <h3>&nbsp;&nbsp;&nbsp;Shashwat Tiwari</h3>
+          <a href="https://www.linkedin.com/in/shashwat-tiwari-2307b52a3" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://www.instagram.com/_shashwat.19/" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+      </a>
+          {/* <a href="https://www.linkedin.com/in/shashwat-tiwari-2307b52a3">Shashwat Tiwari <span>🔗 </span></a> */}
+          {/* <a href="https://www.linkedin.com/in/sahil-sharma-380ba1248">Sahil Sharma <span>🔗</span></a> */}
+        </div>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sahil Sharma</h3>
+          <a href="https://www.linkedin.com/in/sahil-sharma-380ba1248" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://www.instagram.com/_sahil_.41" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+      </a>
+          {/* <a href="https://www.linkedin.com/in/shashwat-tiwari-2307b52a3">Shashwat Tiwari <span>🔗 </span></a> */}
+          {/* <a href="https://www.linkedin.com/in/sahil-sharma-380ba1248">Sahil Sharma <span>🔗</span></a> */}
         </div>
       </div>
       </div>
