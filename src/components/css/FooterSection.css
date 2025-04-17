@@ -95,8 +95,8 @@ span {
 }
 
 .social-icon img {
-  width: 23px; /* Adjust size */
-  height: 23px;
+  width: 17px; /* Adjust size */
+  height: 17px;
   border-radius: 50%; /* Make it round */
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }

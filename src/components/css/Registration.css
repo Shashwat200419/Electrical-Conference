@@ -110,6 +110,13 @@
   margin-top: 3rem;
   font-weight: 600;
 }
+.Register_data p span {
+  font-size: 1.3rem;
+  font-family: "Barlow", sans-serif;
+  margin-top: 3rem;
+  font-weight: 600;
+  color: gray;
+}
 
 .table-container {
   width: 100%;

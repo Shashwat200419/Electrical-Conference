@@ -203,18 +203,36 @@ body {
   text-align: justify;
 }
 .descriptive-text-springer {
-  /* margin-top: 5px; */
-  padding: 5px;
-  /* padding-bottom: 10px; */
-  line-height: 20px;
+  padding: 3px;
+  line-height: 18px;
   font-family: "Barlow", sans-serif;
   width: 100%;
-  /* color: #002e77; */
+  height: auto;
   color: #650f13;
   font-size: 0.95rem;
   margin-left: -2rem;
   text-align: justify;
+  overflow: auto;
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
 .descriptive-text-springer a {
   color: blue;
 }

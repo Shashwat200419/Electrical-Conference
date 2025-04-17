@@ -29,7 +29,7 @@ export const Registration = () => {
             <li>The registration categories and the corresponding charges are shown in the table below:</li>
           </ul>
         </div>
-        <p>Registration Fee :</p>
+        <p>Registration Fee <span>(non-refundable)</span>:</p>
         <div className="table-container">
       <table className="custom-table">
         <thead>
