@@ -14,12 +14,6 @@ import e from "../../assets/5KS.png";
 
 const cards = [
   {
-    id: 1,
-    image: a,
-    name: 'Prof. Bhim Singh',
-    description: 'IIT Delhi',
-  },
-  {
     id: 2,
     image: b,
     name: 'Prof. Radhakant Padhi',
@@ -30,6 +24,12 @@ const cards = [
     image: c,
     name: 'Prof. Bhaveshkumar R.Bhalija',
     description: 'IIT Roorkee',
+  },
+  {
+    id: 1,
+    image: a,
+    name: 'Prof. Bhim Singh',
+    description: 'IIT Delhi',
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ export const KeynoteSpeakers = () => {
         <p>Updating Soon...</p>
         <img src={keynote_speaker} alt="img" />
       </div> */}
-          <div className="card-grid-container">
+      <div className="card-grid-container">
       {/* <h2 className="heading">Our Picks</h2> */}
       <div className="card-grid">
         {cards.map((card) => (
