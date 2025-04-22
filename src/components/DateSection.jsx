@@ -6,11 +6,11 @@ const DateSection = () => {
       <div className="banner-container">
       <div className="marquee">
         <span>
-          Important Update: The last date for paper submission to PICS-2025 has been extended to 21 April 2025. 
+          Important Update: The last date for paper submission to PICS-2025 has been extended to 05 May 2025. 
           Authors are encouraged to submit their papers before the new deadline. &nbsp; 🔔 
         </span>
         <span>
-          Important Update: The last date for paper submission to PICS-2025 has been extended to 21 April 2025. 
+          Important Update: The last date for paper submission to PICS-2025 has been extended to 05 May 2025. 
           Authors are encouraged to submit their papers before the new deadline. &nbsp; 🔔 
         </span>
       </div>
@@ -21,7 +21,8 @@ const DateSection = () => {
         <div className='datebox'>
             <p className='dateptwo'>Last Date of Paper Submission :</p>
             <p className='datepone-updated'>31 March, 2025</p>
-            <p className='datepone-updated-date'>21 April, 2025</p>
+            <p className='datepone-updated'>21 April, 2025</p>
+            <p className='datepone-updated-date'>05 May, 2025 (Extended)</p>
         </div>
         <div className='datebox'>
             <p className='dateptwo'>Acceptance Notification : </p>

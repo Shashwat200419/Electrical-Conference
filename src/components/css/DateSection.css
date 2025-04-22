@@ -83,7 +83,7 @@
   font-weight: bold;
   gap: 30px; /* Adds space between duplicated text */
   width: 200%;
-  animation: marquee 12s linear infinite;
+  animation: marquee 16s linear infinite;
 }
 
 /* Ensure the text spans the width properly */
