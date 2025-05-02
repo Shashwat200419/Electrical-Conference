@@ -157,18 +157,19 @@
   font-family: "Barlow", sans-serif;
 }
 .instruction {
-  margin-top: 8rem;
+  margin-top: 4rem;
   display: flex;
   gap: 1rem;
   flex-direction: column;
+  padding: 2rem;
 }
 .instruction h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Barlow", sans-serif;
   color: #222222;
 }
 .instruction ul li {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Barlow", sans-serif;
   color: #222222;
   margin: 1rem;
