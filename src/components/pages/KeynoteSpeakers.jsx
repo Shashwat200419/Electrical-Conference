@@ -9,6 +9,7 @@ import b from "../../assets/2KS.png";
 import c from "../../assets/3KS.png";
 import d from "../../assets/4KS.png";
 import e from "../../assets/5KS.png";
+import f from "../../assets/speaker 6th.jpeg";
 
 
 
@@ -42,6 +43,12 @@ const cards = [
     image: e,
     name: 'Prof. Sisir Kumar Nayak',
     description: 'IIT Guwahati',
+  },
+  {
+    id: 6,
+    image: f,
+    name: 'Prof. Sanjeevikumar Padmanaban',
+    description: 'University of South-Eastern Norway',
   },
 ];
 
