@@ -18,7 +18,7 @@ export const Registration = () => {
             <li>Registration fees is to be paid at the following link: <a href="https://www.onlinesbi.sbi/sbicollect/">https://www.onlinesbi.sbi/sbicollect/</a>.</li>
             <li>Refer to the steps for payment as given <a href={a}>here.</a></li>
             {/* <li>Please enter your paper ID in remarks column while making the payment.</li> */}
-            <li>•	After payment, please fill out the Google Form with your details to complete the registration process. The deadline is June 15, 2025. Registration Google Form: <a href=" https://tinyurl.com/32fmfmus"> https://tinyurl.com/32fmfmus</a>.</li>
+            <li>•	After payment, please fill out the Google Form with your details to complete the registration process. The deadline is June 05, 2025. Registration Google Form: <a href=" https://tinyurl.com/32fmfmus"> https://tinyurl.com/32fmfmus</a>.</li>
             {/* <li>After payment, please fill out the Google Form with your details to complete the registration process. The deadline is June 15,  2025.</li> */}
             {/* <li>For student registrations, please upload valid proof and SBI Collect receipt together as a single PDF in the Google Form</li> */}
             {/* <li>Authors from outside India may use the following details for registration:</li> */}
